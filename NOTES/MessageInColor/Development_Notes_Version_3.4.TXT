@@ -1,0 +1,588 @@
+      WizardWrx.ConsoleAppAids Class Library for Microsoft .NET Framework
+                       Development Notes for Version 3.4
+
+================================================================================
+02/05/2014 19:49:06 - Mark the MessageInColor class as serializable, and make it
+                      so, with a boost from a MessageInColorConverter helper
+                      class.
+
+Reference: Using Custom Classes with Application Settings, by Richard Carr
+           http://www.blackwasp.co.uk/CustomAppSettings.aspx
+
+His example is thoroughly expanined, and it actually WORKS AS WRITTEEN! What a
+comcept!
+================================================================================
+
+Rename 'context' to 'pIContext'
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\MessageInColor.cs(2027,70): updated definition
+
+
+Rename 'sourceType' to 'ptypSourceType'
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\MessageInColor.cs(2027,87): updated definition
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\MessageInColor.cs(2029,20): updated reference
+
+
+Rename 'room' to 'MsgColors'
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\MessageInColor.cs(2042,32): updated definition
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\MessageInColor.cs(2045,24): updated reference
+
+
+Rename 'parts' to 'astrTokens'
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\MessageInColor.cs(2041,28): updated definition
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\MessageInColor.cs(2043,56): updated reference
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\MessageInColor.cs(2044,21): updated reference
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\MessageInColor.cs(2044,75): updated reference
+
+
+Rename 'context' to 'pITypeDescriptorContext'
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\MessageInColor.cs(2035,36): updated definition
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\MessageInColor.cs(2047,39): updated reference
+
+
+Rename 'culture' to 'pCultureInfo'
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\MessageInColor.cs(2036,46): updated definition
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\MessageInColor.cs(2047,65): updated reference
+
+
+Rename 'value' to 'pobjValue'
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\MessageInColor.cs(2037,20): updated definition
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\MessageInColor.cs(2039,18): updated reference
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\MessageInColor.cs(2041,54): updated reference
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\MessageInColor.cs(2047,80): updated reference
+
+
+Rename 'context' to 'pIContext'
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\MessageInColor.cs(2057,36): updated definition
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\MessageInColor.cs(2065,37): updated reference
+
+
+Rename 'pIContext' to 'pITypeDescriptorContext'
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\MessageInColor.cs(2057,36): updated definition
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\MessageInColor.cs(2065,37): updated reference
+
+
+Rename 'culture' to 'pCultureInfo'
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\MessageInColor.cs(2057,95): updated definition
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\MessageInColor.cs(2065,63): updated reference
+
+
+Rename 'value' to 'pobjValue'
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\MessageInColor.cs(2058,20): updated definition
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\MessageInColor.cs(2062,39): updated reference
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\MessageInColor.cs(2065,78): updated reference
+
+
+Rename 'destinationType' to 'pDestType'
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\MessageInColor.cs(2058,37): updated definition
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\MessageInColor.cs(2060,18): updated reference
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\MessageInColor.cs(2065,90): updated reference
+
+Rename 'room' to 'MsgColors'
+
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\MessageInColor.cs(2063,32): updated definition
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\MessageInColor.cs(2064,52): updated reference
+C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\MessageInColor.cs(2064,82): updated reference
+
+
+================================================================================
+I stuck with a Release build, since I intend to apply this directly to the
+Date2FN settings.
+================================================================================
+
+------ Build started: Project: ConsoleAppAids, Configuration: Release Any CPU ------
+Build started 02/05/2014 20:48:36.
+PreBuildEvent:
+  wwBldNbrMgr.exe "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\ "
+  Build Task           = IncrementBuildNbr
+  AssemblyInfo File    = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\Properties\AssemblyInfo.cs
+          Project Type = CSharp
+          File Date    = 02/05/2014 20:48:37 (02/06/2014 02:48:37 UTC)
+          Build Number = 79
+  Sleeping for 3 seconds
+  Waking from cat nap
+CoreCompile:
+  C:\WINXP\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /doc:bin\Release\WizardWrx.ConsoleAppAids.xml /define:TRACE /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers\ApplicationHelpers\bin\Release\WizardWrx.ApplicationHelpers.dll" /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\SharedUtl2\SharedUtl2\bin\Release\WizardWrx.SharedUtl2.dll" /debug:pdbonly /filealign:512 /optimize+ /out:obj\Release\WizardWrx.ConsoleAppAids.dll /target:library DisplayAids.CS ExceptionReporting.cs MessageInColor.cs Properties\AssemblyInfo.cs
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers\ApplicationHelpers\bin\Release\WizardWrx.ApplicationHelpers.dll" to "bin\Release\WizardWrx.ApplicationHelpers.dll".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers\ApplicationHelpers\bin\Release\WizardWrx.ApplicationHelpers.pdb" to "bin\Release\WizardWrx.ApplicationHelpers.pdb".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers\ApplicationHelpers\bin\Release\WizardWrx.ConsoleAppAids.xml" to "bin\Release\WizardWrx.ConsoleAppAids.xml".
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Release\WizardWrx.ConsoleAppAids.dll" to "bin\Release\WizardWrx.ConsoleAppAids.dll".
+  ConsoleAppAids -> C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ConsoleAppAids.dll
+  Copying file from "obj\Release\WizardWrx.ConsoleAppAids.pdb" to "bin\Release\WizardWrx.ConsoleAppAids.pdb".
+PostBuildEvent:
+  wwBldNbrMgr.exe -r "-pC:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\ " "-tC:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ConsoleAppAids.dll"
+  Build Task           = RecordBuildDetails
+  Assembly File FQFN = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ConsoleAppAids.dll
+          Version    = 3.3.79.37461
+          File Date  = 02/05/2014 20:48:43 (02/06/2014 02:48:43 UTC)
+  Log File FQFN      = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\BuildHistory.LOG
+          File Date  = 02/05/2014 20:48:44 (02/06/2014 02:48:44 UTC)
+
+Build succeeded.
+
+Time Elapsed 00:00:08.68
+------ Build started: Project: TestStand, Configuration: Release x86 ------
+Build started 02/05/2014 20:48:45.
+PreBuildEvent:
+  wwBldNbrMgr.exe "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\ "
+  Build Task           = IncrementBuildNbr
+  AssemblyInfo File    = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\Properties\AssemblyInfo.cs
+          Project Type = CSharp
+          File Date    = 02/05/2014 20:48:45 (02/06/2014 02:48:45 UTC)
+          Build Number = 65
+  Sleeping for 3 seconds
+  Waking from cat nap
+CoreResGen:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\ResGen.exe /useSourcePath /r:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /r:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /r:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.dll /r:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /r:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers\ApplicationHelpers\bin\Release\WizardWrx.ApplicationHelpers.dll" /r:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ConsoleAppAids.dll" /r:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\SharedUtl2\SharedUtl2\bin\Release\WizardWrx.SharedUtl2.dll" /compile Properties\Resources.resx,obj\x86\Release\TestStand.Properties.Resources.resources
+CoreCompile:
+  C:\WINXP\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /platform:x86 /errorreport:prompt /warn:4 /define:TRACE /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers\ApplicationHelpers\bin\Release\WizardWrx.ApplicationHelpers.dll" /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ConsoleAppAids.dll" /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\SharedUtl2\SharedUtl2\bin\Release\WizardWrx.SharedUtl2.dll" /debug:pdbonly /filealign:512 /optimize+ /out:obj\x86\Release\TestStand.exe /resource:obj\x86\Release\TestStand.Properties.Resources.resources /target:exe /win32icon:WW_Icon1.ico Program.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers\ApplicationHelpers\bin\Release\WizardWrx.ApplicationHelpers.dll" to "bin\Release\WizardWrx.ApplicationHelpers.dll".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ConsoleAppAids.dll" to "bin\Release\WizardWrx.ConsoleAppAids.dll".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ConsoleAppAids.pdb" to "bin\Release\WizardWrx.ConsoleAppAids.pdb".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers\ApplicationHelpers\bin\Release\WizardWrx.ApplicationHelpers.pdb" to "bin\Release\WizardWrx.ApplicationHelpers.pdb".
+_CopyAppConfigFile:
+Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+CopyFilesToOutputDirectory:
+  Copying file from "obj\x86\Release\TestStand.exe" to "bin\Release\TestStand.exe".
+  TestStand -> C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\bin\Release\TestStand.exe
+  Copying file from "obj\x86\Release\TestStand.pdb" to "bin\Release\TestStand.pdb".
+PostBuildEvent:
+  wwBldNbrMgr.exe -r "-pC:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\ " "-tC:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\bin\Release\TestStand.exe"
+  Build Task           = RecordBuildDetails
+  Assembly File FQFN = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\bin\Release\TestStand.exe
+          Version    = 3.2.65.37465
+          File Date  = 02/05/2014 20:48:51 (02/06/2014 02:48:51 UTC)
+  Log File FQFN      = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\BuildHistory.LOG
+          File Date  = 02/05/2014 20:48:52 (02/06/2014 02:48:52 UTC)
+
+Build succeeded.
+
+Time Elapsed 00:00:06.95
+========== Build: 2 succeeded or up-to-date, 0 failed, 0 skipped ==========
+
+
+================================================================================
+02/05/2014 22:25:40
+================================================================================
+
+------ Rebuild All started: Project: ConsoleAppAids, Configuration: Release Any CPU ------
+Build started 02/05/2014 22:24:49.
+CoreClean:
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ConsoleAppAids.dll".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ConsoleAppAids.pdb".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ApplicationHelpers.dll".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ApplicationHelpers.pdb".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ApplicationHelpers.xml".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\obj\Release\ResolveAssemblyReference.cache".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\obj\Release\WizardWrx.ConsoleAppAids.dll".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\obj\Release\WizardWrx.ConsoleAppAids.pdb".
+PreBuildEvent:
+  wwBldNbrMgr.exe "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\ "
+  Build Task           = IncrementBuildNbr
+  AssemblyInfo File    = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\Properties\AssemblyInfo.cs
+          Project Type = CSharp
+          File Date    = 02/05/2014 22:24:49 (02/06/2014 04:24:49 UTC)
+          Build Number = 82
+  Sleeping for 3 seconds
+  Waking from cat nap
+CoreCompile:
+  C:\WINXP\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /doc:bin\Release\WizardWrx.ConsoleAppAids.xml /define:TRACE /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers\ApplicationHelpers\bin\Release\WizardWrx.ApplicationHelpers.dll" /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\SharedUtl2\SharedUtl2\bin\Release\WizardWrx.SharedUtl2.dll" /debug:pdbonly /filealign:512 /optimize+ /out:obj\Release\WizardWrx.ConsoleAppAids.dll /target:library DisplayAids.CS ExceptionReporting.cs MessageInColor.cs Properties\AssemblyInfo.cs
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers\ApplicationHelpers\bin\Release\WizardWrx.ApplicationHelpers.dll" to "bin\Release\WizardWrx.ApplicationHelpers.dll".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers\ApplicationHelpers\bin\Release\WizardWrx.ConsoleAppAids.dll" to "bin\Release\WizardWrx.ConsoleAppAids.dll".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers\ApplicationHelpers\bin\Release\WizardWrx.ApplicationHelpers.pdb" to "bin\Release\WizardWrx.ApplicationHelpers.pdb".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers\ApplicationHelpers\bin\Release\WizardWrx.ApplicationHelpers.xml" to "bin\Release\WizardWrx.ApplicationHelpers.xml".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers\ApplicationHelpers\bin\Release\WizardWrx.ConsoleAppAids.pdb" to "bin\Release\WizardWrx.ConsoleAppAids.pdb".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers\ApplicationHelpers\bin\Release\WizardWrx.ConsoleAppAids.xml" to "bin\Release\WizardWrx.ConsoleAppAids.xml".
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Release\WizardWrx.ConsoleAppAids.dll" to "bin\Release\WizardWrx.ConsoleAppAids.dll".
+  ConsoleAppAids -> C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ConsoleAppAids.dll
+  Copying file from "obj\Release\WizardWrx.ConsoleAppAids.pdb" to "bin\Release\WizardWrx.ConsoleAppAids.pdb".
+PostBuildEvent:
+  wwBldNbrMgr.exe -r "-pC:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\ " "-tC:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ConsoleAppAids.dll"
+  Build Task           = RecordBuildDetails
+  Assembly File FQFN = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ConsoleAppAids.dll
+          Version    = 3.4.82.40346
+          File Date  = 02/05/2014 22:24:53 (02/06/2014 04:24:53 UTC)
+  Log File FQFN      = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\BuildHistory.LOG
+          File Date  = 02/05/2014 22:24:53 (02/06/2014 04:24:53 UTC)
+
+Build succeeded.
+
+Time Elapsed 00:00:04.50
+------ Rebuild All started: Project: TestStand, Configuration: Release x86 ------
+Build started 02/05/2014 22:24:53.
+CoreClean:
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\bin\Release\TestStand.exe.config".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\bin\Release\TestStand.exe".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\bin\Release\TestStand.pdb".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\bin\Release\WizardWrx.ApplicationHelpers.dll".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\bin\Release\WizardWrx.ConsoleAppAids.dll".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\bin\Release\WizardWrx.ConsoleAppAids.pdb".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\bin\Release\WizardWrx.ConsoleAppAids.xml".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\bin\Release\WizardWrx.ApplicationHelpers.pdb".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\bin\Release\WizardWrx.ApplicationHelpers.xml".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\obj\x86\Release\ResolveAssemblyReference.cache".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\obj\x86\Release\TestStand.Properties.Resources.resources".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\obj\x86\Release\GenerateResource-ResGen.read.1.tlog".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\obj\x86\Release\GenerateResource-ResGen.write.1.tlog".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\obj\x86\Release\TestStand.exe".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\obj\x86\Release\TestStand.pdb".
+PreBuildEvent:
+  wwBldNbrMgr.exe "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\ "
+  Build Task           = IncrementBuildNbr
+  AssemblyInfo File    = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\Properties\AssemblyInfo.cs
+          Project Type = CSharp
+          File Date    = 02/05/2014 22:24:54 (02/06/2014 04:24:54 UTC)
+          Build Number = 68
+  Sleeping for 3 seconds
+  Waking from cat nap
+CoreResGen:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\ResGen.exe /useSourcePath /r:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /r:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /r:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.dll /r:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /r:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers\ApplicationHelpers\bin\Release\WizardWrx.ApplicationHelpers.dll" /r:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ConsoleAppAids.dll" /r:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\SharedUtl2\SharedUtl2\bin\Release\WizardWrx.SharedUtl2.dll" /compile Properties\Resources.resx,obj\x86\Release\TestStand.Properties.Resources.resources
+CoreCompile:
+  C:\WINXP\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /platform:x86 /errorreport:prompt /warn:4 /define:TRACE /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers\ApplicationHelpers\bin\Release\WizardWrx.ApplicationHelpers.dll" /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ConsoleAppAids.dll" /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\SharedUtl2\SharedUtl2\bin\Release\WizardWrx.SharedUtl2.dll" /debug:pdbonly /filealign:512 /optimize+ /out:obj\x86\Release\TestStand.exe /resource:obj\x86\Release\TestStand.Properties.Resources.resources /target:exe /win32icon:WW_Icon1.ico Program.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs Properties\Settings.Designer.cs
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers\ApplicationHelpers\bin\Release\WizardWrx.ApplicationHelpers.dll" to "bin\Release\WizardWrx.ApplicationHelpers.dll".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ConsoleAppAids.dll" to "bin\Release\WizardWrx.ConsoleAppAids.dll".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ConsoleAppAids.pdb" to "bin\Release\WizardWrx.ConsoleAppAids.pdb".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ConsoleAppAids.xml" to "bin\Release\WizardWrx.ConsoleAppAids.xml".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers\ApplicationHelpers\bin\Release\WizardWrx.ApplicationHelpers.pdb" to "bin\Release\WizardWrx.ApplicationHelpers.pdb".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers\ApplicationHelpers\bin\Release\WizardWrx.ApplicationHelpers.xml" to "bin\Release\WizardWrx.ApplicationHelpers.xml".
+_CopyAppConfigFile:
+  Copying file from "app.config" to "bin\Release\TestStand.exe.config".
+CopyFilesToOutputDirectory:
+  Copying file from "obj\x86\Release\TestStand.exe" to "bin\Release\TestStand.exe".
+  TestStand -> C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\bin\Release\TestStand.exe
+  Copying file from "obj\x86\Release\TestStand.pdb" to "bin\Release\TestStand.pdb".
+PostBuildEvent:
+  wwBldNbrMgr.exe -r "-pC:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\ " "-tC:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\bin\Release\TestStand.exe"
+  Build Task           = RecordBuildDetails
+  Assembly File FQFN = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\bin\Release\TestStand.exe
+          Version    = 3.4.68.40348
+          File Date  = 02/05/2014 22:24:58 (02/06/2014 04:24:58 UTC)
+  Log File FQFN      = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\BuildHistory.LOG
+          File Date  = 02/05/2014 22:24:58 (02/06/2014 04:24:58 UTC)
+
+Build succeeded.
+
+Time Elapsed 00:00:04.74
+========== Rebuild All: 2 succeeded, 0 failed, 0 skipped ==========
+
+
+================================================================================
+02/05/2014 23:39:04 - The proof of the pudding is in Date2FN.exe, for which this
+                      capability was created.
+================================================================================
+
+
+================================================================================
+02/05/2014 23:18:28 - Change the ConvertFrom method of MessageInColorConverter
+                      to parse enumerated types from text.
+================================================================================
+
+------ Build started: Project: ConsoleAppAids, Configuration: Release Any CPU ------
+Build started 02/05/2014 23:17:59.
+PreBuildEvent:
+  wwBldNbrMgr.exe "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\ "
+  Build Task           = IncrementBuildNbr
+  AssemblyInfo File    = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\Properties\AssemblyInfo.cs
+          Project Type = CSharp
+          File Date    = 02/05/2014 23:17:59 (02/06/2014 05:17:59 UTC)
+          Build Number = 83
+  Sleeping for 3 seconds
+  Waking from cat nap
+CoreCompile:
+  C:\WINXP\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /errorreport:prompt /warn:4 /doc:bin\Release\WizardWrx.ConsoleAppAids.xml /define:TRACE /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers\ApplicationHelpers\bin\Release\WizardWrx.ApplicationHelpers.dll" /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\SharedUtl2\SharedUtl2\bin\Release\WizardWrx.SharedUtl2.dll" /debug:pdbonly /filealign:512 /optimize+ /out:obj\Release\WizardWrx.ConsoleAppAids.dll /target:library DisplayAids.CS ExceptionReporting.cs MessageInColor.cs Properties\AssemblyInfo.cs
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers\ApplicationHelpers\bin\Release\WizardWrx.ConsoleAppAids.dll" to "bin\Release\WizardWrx.ConsoleAppAids.dll".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers\ApplicationHelpers\bin\Release\WizardWrx.ConsoleAppAids.pdb" to "bin\Release\WizardWrx.ConsoleAppAids.pdb".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers\ApplicationHelpers\bin\Release\WizardWrx.ConsoleAppAids.xml" to "bin\Release\WizardWrx.ConsoleAppAids.xml".
+CopyFilesToOutputDirectory:
+  Copying file from "obj\Release\WizardWrx.ConsoleAppAids.dll" to "bin\Release\WizardWrx.ConsoleAppAids.dll".
+  ConsoleAppAids -> C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ConsoleAppAids.dll
+  Copying file from "obj\Release\WizardWrx.ConsoleAppAids.pdb" to "bin\Release\WizardWrx.ConsoleAppAids.pdb".
+PostBuildEvent:
+  wwBldNbrMgr.exe -r "-pC:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\ " "-tC:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ConsoleAppAids.dll"
+  Build Task           = RecordBuildDetails
+  Assembly File FQFN = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ConsoleAppAids.dll
+          Version    = 3.4.83.41941
+          File Date  = 02/05/2014 23:18:03 (02/06/2014 05:18:03 UTC)
+  Log File FQFN      = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\BuildHistory.LOG
+          File Date  = 02/05/2014 23:18:03 (02/06/2014 05:18:03 UTC)
+
+Build succeeded.
+
+Time Elapsed 00:00:04.25
+------ Build started: Project: TestStand, Configuration: Release x86 ------
+Build started 02/05/2014 23:18:03.
+PreBuildEvent:
+  wwBldNbrMgr.exe "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\ "
+  Build Task           = IncrementBuildNbr
+  AssemblyInfo File    = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\Properties\AssemblyInfo.cs
+          Project Type = CSharp
+          File Date    = 02/05/2014 23:18:03 (02/06/2014 05:18:03 UTC)
+          Build Number = 69
+  Sleeping for 3 seconds
+  Waking from cat nap
+CoreResGen:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\ResGen.exe /useSourcePath /r:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /r:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /r:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.dll /r:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /r:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers\ApplicationHelpers\bin\Release\WizardWrx.ApplicationHelpers.dll" /r:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ConsoleAppAids.dll" /r:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\SharedUtl2\SharedUtl2\bin\Release\WizardWrx.SharedUtl2.dll" /compile Properties\Resources.resx,obj\x86\Release\TestStand.Properties.Resources.resources 
+CoreCompile:
+  C:\WINXP\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /platform:x86 /errorreport:prompt /warn:4 /define:TRACE /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers\ApplicationHelpers\bin\Release\WizardWrx.ApplicationHelpers.dll" /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ConsoleAppAids.dll" /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\SharedUtl2\SharedUtl2\bin\Release\WizardWrx.SharedUtl2.dll" /debug:pdbonly /filealign:512 /optimize+ /out:obj\x86\Release\TestStand.exe /resource:obj\x86\Release\TestStand.Properties.Resources.resources /target:exe /win32icon:WW_Icon1.ico Program.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs Properties\Settings.Designer.cs
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ConsoleAppAids.dll" to "bin\Release\WizardWrx.ConsoleAppAids.dll".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ConsoleAppAids.pdb" to "bin\Release\WizardWrx.ConsoleAppAids.pdb".
+_CopyAppConfigFile:
+Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+CopyFilesToOutputDirectory:
+  Copying file from "obj\x86\Release\TestStand.exe" to "bin\Release\TestStand.exe".
+  TestStand -> C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\bin\Release\TestStand.exe
+  Copying file from "obj\x86\Release\TestStand.pdb" to "bin\Release\TestStand.pdb".
+PostBuildEvent:
+  wwBldNbrMgr.exe -r "-pC:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\ " "-tC:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\bin\Release\TestStand.exe"
+  Build Task           = RecordBuildDetails
+  Assembly File FQFN = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\bin\Release\TestStand.exe
+          Version    = 3.4.69.41943
+          File Date  = 02/05/2014 23:18:07 (02/06/2014 05:18:07 UTC)
+  Log File FQFN      = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\BuildHistory.LOG
+          File Date  = 02/05/2014 23:18:08 (02/06/2014 05:18:08 UTC)
+
+Build succeeded.
+
+Time Elapsed 00:00:04.75
+========== Build: 2 succeeded or up-to-date, 0 failed, 0 skipped ==========
+
+------ Rebuild All started: Project: Date2FN, Configuration: Debug x86 ------
+Build started 02/05/2014 23:20:41.
+CoreClean:
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\Console_Apps\Date2FN\Date2FN\bin\Debug\Date2FN.exe".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\Console_Apps\Date2FN\Date2FN\bin\Debug\Date2FN.pdb".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\Console_Apps\Date2FN\Date2FN\bin\Debug\WizardWrx.ApplicationHelpers.dll".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\Console_Apps\Date2FN\Date2FN\bin\Debug\WizardWrx.ConsoleAppAids.dll".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\Console_Apps\Date2FN\Date2FN\bin\Debug\WizardWrx.ApplicationHelpers.pdb".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\Console_Apps\Date2FN\Date2FN\bin\Debug\WizardWrx.ApplicationHelpers.xml".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\Console_Apps\Date2FN\Date2FN\bin\Debug\WizardWrx.ConsoleAppAids.pdb".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\Console_Apps\Date2FN\Date2FN\bin\Debug\WizardWrx.ConsoleAppAids.xml".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\Console_Apps\Date2FN\Date2FN\bin\Debug\Date2FN.exe.config".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\Console_Apps\Date2FN\Date2FN\obj\x86\Debug\ResolveAssemblyReference.cache".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\Console_Apps\Date2FN\Date2FN\obj\x86\Debug\Date2FN.exe".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\Console_Apps\Date2FN\Date2FN\obj\x86\Debug\Date2FN.pdb".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\Console_Apps\Date2FN\Date2FN\obj\x86\Debug\Date2FN.Properties.Resources.resources".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\Console_Apps\Date2FN\Date2FN\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog".
+  Deleting file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\Console_Apps\Date2FN\Date2FN\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog".
+PreBuildEvent:
+  wwBldNbrMgr.exe "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\Console_Apps\Date2FN\Date2FN\ "
+  Build Task           = IncrementBuildNbr
+  AssemblyInfo File    = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\Console_Apps\Date2FN\Date2FN\Properties\AssemblyInfo.cs
+          Project Type = CSharp
+          File Date    = 02/05/2014 23:20:41 (02/06/2014 05:20:41 UTC)
+          Build Number = 66
+  Sleeping for 3 seconds
+  Waking from cat nap
+CoreResGen:
+  C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\ResGen.exe /useSourcePath /r:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /r:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /r:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.dll /r:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /r:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers\ApplicationHelpers\bin\Release\WizardWrx.ApplicationHelpers.dll" /r:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ConsoleAppAids.dll" /r:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\SharedUtl2\SharedUtl2\bin\Release\WizardWrx.SharedUtl2.dll" /compile Properties\Resources.resx,obj\x86\Debug\Date2FN.Properties.Resources.resources 
+CoreCompile:
+  C:\WINXP\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /platform:x86 /errorreport:prompt /warn:4 /define:DEBUG;TRACE /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers\ApplicationHelpers\bin\Release\WizardWrx.ApplicationHelpers.dll" /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ConsoleAppAids.dll" /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\SharedUtl2\SharedUtl2\bin\Release\WizardWrx.SharedUtl2.dll" /debug+ /debug:full /filealign:512 /optimize- /out:obj\x86\Debug\Date2FN.exe /resource:obj\x86\Debug\Date2FN.Properties.Resources.resources /target:exe /win32icon:WW_Icon1.ico FileNameSuffixEngine.cs Program.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs Properties\Settings.Designer.cs
+_CopyFilesMarkedCopyLocal:
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers\ApplicationHelpers\bin\Release\WizardWrx.ApplicationHelpers.dll" to "bin\Debug\WizardWrx.ApplicationHelpers.dll".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ConsoleAppAids.dll" to "bin\Debug\WizardWrx.ConsoleAppAids.dll".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers\ApplicationHelpers\bin\Release\WizardWrx.ApplicationHelpers.pdb" to "bin\Debug\WizardWrx.ApplicationHelpers.pdb".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers\ApplicationHelpers\bin\Release\WizardWrx.ApplicationHelpers.xml" to "bin\Debug\WizardWrx.ApplicationHelpers.xml".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ConsoleAppAids.pdb" to "bin\Debug\WizardWrx.ConsoleAppAids.pdb".
+  Copying file from "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ConsoleAppAids.xml" to "bin\Debug\WizardWrx.ConsoleAppAids.xml".
+_CopyAppConfigFile:
+  Copying file from "app.config" to "bin\Debug\Date2FN.exe.config".
+CopyFilesToOutputDirectory:
+  Copying file from "obj\x86\Debug\Date2FN.exe" to "bin\Debug\Date2FN.exe".
+  Date2FN -> C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\Console_Apps\Date2FN\Date2FN\bin\Debug\Date2FN.exe
+  Copying file from "obj\x86\Debug\Date2FN.pdb" to "bin\Debug\Date2FN.pdb".
+PostBuildEvent:
+  wwBldNbrMgr.exe -r "-pC:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\Console_Apps\Date2FN\Date2FN\ " "-tC:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\Console_Apps\Date2FN\Date2FN\bin\Debug\Date2FN.exe"
+  Build Task           = RecordBuildDetails
+  Assembly File FQFN = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\Console_Apps\Date2FN\Date2FN\bin\Debug\Date2FN.exe
+          Version    = 1.3.66.42022
+          File Date  = 02/05/2014 23:20:45 (02/06/2014 05:20:45 UTC)
+  Log File FQFN      = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\Console_Apps\Date2FN\Date2FN\BuildHistory.LOG
+          File Date  = 02/05/2014 23:20:46 (02/06/2014 05:20:46 UTC)
+
+Build succeeded.
+
+Time Elapsed 00:00:04.81
+========== Rebuild All: 1 succeeded, 0 failed, 0 skipped ==========
+
+-		s_theApp.AppExceptionLogger.ErrorMessageColors	{WizardWrx.ConsoleAppAids.MessageInColor}	WizardWrx.ConsoleAppAids.MessageInColor
+		MessageBackgroundColor	DarkGray	System.ConsoleColor
+		MessageForegroundColor	Yellow		System.ConsoleColor
+		OriginalBackgroundColor	DarkBlue	System.ConsoleColor
+		OriginalForegroundColor	Yellow		System.ConsoleColor
+
+		_clrOrigBackColor		DarkBlue	System.ConsoleColor
+		_clrOrigForeColor		Yellow		System.ConsoleColor
+		_clrSaveBackColor		Black		System.ConsoleColor
+		_clrSaveForeColor		Black		System.ConsoleColor
+		_clrTextBackColor		DarkGray	System.ConsoleColor
+		_clrTextForeColor		Yellow		System.ConsoleColor
+
+------ Build started: Project: Date2FN, Configuration: Debug x86 ------
+Build started 02/05/2014 23:36:07.
+PreBuildEvent:
+  wwBldNbrMgr.exe "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\Console_Apps\Date2FN\Date2FN\ "
+  Build Task           = IncrementBuildNbr
+  AssemblyInfo File    = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\Console_Apps\Date2FN\Date2FN\Properties\AssemblyInfo.cs
+          Project Type = CSharp
+          File Date    = 02/05/2014 23:36:07 (02/06/2014 05:36:07 UTC)
+          Build Number = 67
+  Sleeping for 3 seconds
+  Waking from cat nap
+CoreResGen:
+  All outputs are up-to-date.
+CoreCompile:
+  C:\WINXP\Microsoft.NET\Framework\v4.0.30319\Csc.exe /noconfig /nowarn:1701,1702 /nostdlib+ /platform:x86 /errorreport:prompt /warn:4 /define:DEBUG;TRACE /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\mscorlib.dll /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.Data.dll /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.dll /reference:C:\WINXP\Microsoft.NET\Framework\v2.0.50727\System.Xml.dll /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ApplicationHelpers\ApplicationHelpers\bin\Release\WizardWrx.ApplicationHelpers.dll" /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ConsoleAppAids.dll" /reference:"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\SharedUtl2\SharedUtl2\bin\Release\WizardWrx.SharedUtl2.dll" /debug+ /debug:full /filealign:512 /optimize- /out:obj\x86\Debug\Date2FN.exe /resource:obj\x86\Debug\Date2FN.Properties.Resources.resources /target:exe /win32icon:WW_Icon1.ico FileNameSuffixEngine.cs Program.cs Properties\AssemblyInfo.cs Properties\Resources.Designer.cs Properties\Settings.Designer.cs
+_CopyAppConfigFile:
+Skipping target "_CopyAppConfigFile" because all output files are up-to-date with respect to the input files.
+CopyFilesToOutputDirectory:
+  Copying file from "obj\x86\Debug\Date2FN.exe" to "bin\Debug\Date2FN.exe".
+  Date2FN -> C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\Console_Apps\Date2FN\Date2FN\bin\Debug\Date2FN.exe
+  Copying file from "obj\x86\Debug\Date2FN.pdb" to "bin\Debug\Date2FN.pdb".
+PostBuildEvent:
+  wwBldNbrMgr.exe -r "-pC:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\Console_Apps\Date2FN\Date2FN\ " "-tC:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\Console_Apps\Date2FN\Date2FN\bin\Debug\Date2FN.exe"
+  Build Task           = RecordBuildDetails
+  Assembly File FQFN = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\Console_Apps\Date2FN\Date2FN\bin\Debug\Date2FN.exe
+          Version    = 1.3.67.42485
+          File Date  = 02/05/2014 23:36:11 (02/06/2014 05:36:11 UTC)
+  Log File FQFN      = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\Console_Apps\Date2FN\Date2FN\BuildHistory.LOG
+          File Date  = 02/05/2014 23:36:11 (02/06/2014 05:36:11 UTC)
+
+Build succeeded.
+
+Time Elapsed 00:00:04.12
+========== Build: 1 succeeded or up-to-date, 0 failed, 0 skipped ==========
+
+
+Date2FN, version 1.3.67.42485
+Begin @ 02/05/2014 23:36:30.901 (02/06/2014 05:36:30.901 UTC)
+
+Original File Name       = DOSTASK.LOG
+Time Stamp Mask          = YYYYMMDD_hhmmss
+Flag File As Read Only   = True
+Directory Recursion Flag = False
+UQ Filespec Flag         = False
+New File Name            = DOSTASK_20131226_231112.LOG
+
+ERROR: New file nme, NewNameTaken, belongs to another file.
+
+Date2FN End
+02/05/2014 23:37:02.026 (02/06/2014 05:37:02.026 UTC)
+Elapsed time: 0:00:00:31.140
+Please press the ENTER (Return) key to exit the program.
+
+'Date2FN.vshost.exe' (Managed (v2.0.50727)): Loaded 'C:\WINXP\assembly\GAC_32\mscorlib\2.0.0.0__b77a5c561934e089\mscorlib.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'Date2FN.vshost.exe' (Managed (v2.0.50727)): Loaded 'C:\WINXP\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'Date2FN.vshost.exe' (Managed (v2.0.50727)): Loaded 'C:\WINXP\assembly\GAC_MSIL\System.Windows.Forms\2.0.0.0__b77a5c561934e089\System.Windows.Forms.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'Date2FN.vshost.exe' (Managed (v2.0.50727)): Loaded 'C:\WINXP\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'Date2FN.vshost.exe' (Managed (v2.0.50727)): Loaded 'C:\WINXP\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'Date2FN.vshost.exe' (Managed (v2.0.50727)): Loaded 'C:\WINXP\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities.Sync\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.Sync.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'Date2FN.vshost.exe' (Managed (v2.0.50727)): Loaded 'C:\WINXP\assembly\GAC_MSIL\Microsoft.VisualStudio.Debugger.Runtime\10.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Debugger.Runtime.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'Date2FN.vshost.exe' (Managed (v2.0.50727)): Loaded 'C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\Console_Apps\Date2FN\Date2FN\bin\Debug\Date2FN.vshost.exe', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'Date2FN.vshost.exe' (Managed (v2.0.50727)): Loaded 'C:\WINXP\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'Date2FN.vshost.exe' (Managed (v2.0.50727)): Loaded 'C:\WINXP\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'Date2FN.vshost.exe' (Managed (v2.0.50727)): Loaded 'C:\WINXP\assembly\GAC_MSIL\WizardWrx.SharedUtl2\2.69.212.31430__17d2d8ea40c2dbbc\WizardWrx.SharedUtl2.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+The thread 'vshost.NotifyLoad' (0x8f4) has exited with code 0 (0x0).
+The thread '<No Name>' (0xa90) has exited with code 0 (0x0).
+The thread 'vshost.LoadReference' (0xbcc) has exited with code 0 (0x0).
+'Date2FN.vshost.exe' (Managed (v2.0.50727)): Loaded 'C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\Console_Apps\Date2FN\Date2FN\bin\Debug\Date2FN.exe', Symbols loaded.
+'Date2FN.vshost.exe' (Managed (v2.0.50727)): Loaded 'C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\Console_Apps\Date2FN\Date2FN\bin\Debug\WizardWrx.ApplicationHelpers.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'Date2FN.vshost.exe' (Managed (v2.0.50727)): Loaded 'C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\Console_Apps\Date2FN\Date2FN\bin\Debug\WizardWrx.ConsoleAppAids.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'Date2FN.vshost.exe' (Managed (v2.0.50727)): Loaded 'C:\WINXP\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'Date2FN.vshost.exe' (Managed (v2.0.50727)): Loaded 'C:\WINXP\assembly\GAC_MSIL\WizardWrx.DateMath\2.7.52.38686__17d2d8ea40c2dbbc\WizardWrx.DateMath.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+The program '[1156] Date2FN.vshost.exe: Managed (v2.0.50727)' has exited with code 4 (0x4).
+
+
+================================================================================
+02/05/2014 23:40:46 - Following is the version information for the library.
+================================================================================
+
+Running "C:\bin\ShowPEVersion.CMD"
+VERSIONINFO for file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ConsoleAppAids.dll":  (type:0)
+  Signature:       feef04bd
+  StrucVersion:    1.0
+  FileVersion:     3.4.83.41941
+  ProductVersion:  3.4.83.41941
+  FileFlagsMask:   0x3f
+  FileFlags:       0
+  FileOS:          VOS__WINDOWS32
+  FileType:        VFT_DLL
+  FileDate:        0.0
+ Translation: 000004b0
+ LangID: 000004b0
+  Comments          : Helper routines for console mode programs
+  CompanyName       : Simple Soft Services, Inc.
+  FileDescription   : WizardWrx.ConsoleAppAids
+  FileVersion       : 3.4.83.41941
+  InternalName      : WizardWrx.ConsoleAppAids.dll
+  LegalCopyright    : Copyright ¬ 2012-2014 WizardWrx
+  LegalTrademarks   : WizardWrx iw a trade mark of Simple Soft Services, Inc.
+  OriginalFilename  : WizardWrx.ConsoleAppAids.dll
+  ProductName       : WizardWrx ConsoleAppAids
+  ProductVersion    : 3.4.83.41941
+  Assembly Version  : 3.4.83.41941
+
+File Mod Date = 02/05/2014 23:18
+File Size     = 17408
+
+WWPause version 2, 0, 0, 3
+Thu 06 Feb 2014 05:41:12 UTC
+Wed 05 Feb 2014 23:41:12 Local
+
+Please press RETURN when ready...
+
+
+================================================================================
+02/05/2014 23:43:21 - Following is the version information for the test stand.
+================================================================================
+
+Running "C:\bin\ShowPEVersion.CMD"
+VERSIONINFO for file "C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\TestStand\bin\Release\TestStand.exe":  (type:0)
+  Signature:       feef04bd
+  StrucVersion:    1.0
+  FileVersion:     3.4.69.41943
+  ProductVersion:  3.4.69.41943
+  FileFlagsMask:   0x3f
+  FileFlags:       0
+  FileOS:          VOS__WINDOWS32
+  FileType:        VFT_APP
+  FileDate:        0.0
+ Translation: 000004b0
+ LangID: 000004b0
+  CompanyName       : Simple Soft Services, Inc.
+  FileDescription   : ConsoleAppAids TestStand
+  FileVersion       : 3.4.69.41943
+  InternalName      : TestStand.exe
+  LegalCopyright    : Copyright 2014 WizardWrx
+  LegalTrademarks   : WizardWrx iw a trade mark of Simple Soft Services, Inc.
+  OriginalFilename  : TestStand.exe
+  ProductName       : WizardWrx ConsoleAppAids
+  ProductVersion    : 3.4.69.41943
+  Assembly Version  : 3.4.69.41943
+
+File Mod Date = 02/05/2014 23:18
+File Size     = 29184
+
+WWPause version 2, 0, 0, 3
+Thu 06 Feb 2014 05:42:58 UTC
+Wed 05 Feb 2014 23:42:58 Local
+
+Please press RETURN when ready...

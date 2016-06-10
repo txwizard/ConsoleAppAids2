@@ -1,0 +1,261 @@
+                     Why I Mark Finished Work as Read Only
+
+================================================================================
+
+C:\Users\DAVE>sdelete "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\*" /s
+
+SDelete - Secure Delete v1.61
+Copyright (C) 1999-2012 Mark Russinovich
+Sysinternals - www.sysinternals.com
+
+SDelete is set for 1 pass.
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Application_ENIGMA_20150618_075217.TXT...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Application_ENIGMA_20150618_075217.TXT for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Application_ENIGMA_20150619_011009.TXT...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Application_ENIGMA_20150619_011009.TXT for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Backup of WizardWrx.ConsoleAppAids_TestStand_6.0.wbk...deleted.
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\ConsoleOutputSpeedTest_Development_Notes.TXT.lnk...
+Error deleting C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\ConsoleOutputSpeedTest_Development_Notes.TXT.lnk: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\ConsoleOutputSpeedTest_Source_Code.lnk...
+Error deleting C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\ConsoleOutputSpeedTest_Source_Code.lnk: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Development_Notes_5.2.TXT...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Development_Notes_5.2.TXT for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Development_Notes_5.3.TXT...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Development_Notes_5.3.TXT for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Development_Notes_Version_3.6.TXT.lnk...
+Error deleting C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Development_Notes_Version_3.6.TXT.lnk: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Development_Notes_Version_5.0.TXT...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Development_Notes_Version_5.0.TXT for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Development_Notes_Version_5.1.TXT...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Development_Notes_Version_5.1.TXT for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Development_Notes_Version_5.4.TXT...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Development_Notes_Version_5.4.TXT for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Development_Notes_Version_6.0.TXT...deleted.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Development_Worksheets.XLSX.lnk...
+Error deleting C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Development_Worksheets.XLSX.lnk: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\DLLServices2_Project_Directory.lnk...
+Error deleting C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\DLLServices2_Project_Directory.lnk: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Errors_to_STDERR.DOCX...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Errors_to_STDERR.DOCX for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Error_Messages_in_Living_Color.DOCX...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Error_Messages_in_Living_Color.DOCX for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Exception_Reporting_Rationalization.XLSX...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Exception_Reporting_Rationalization.XLSX for delete: Access is denied.
+
+
+Error deleting C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\FixedConsoleWriter: The directory is not empty.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Install_ApplicationHelpers_CMD.ZIPX...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Install_ApplicationHelpers_CMD.ZIPX for delete: Access is denied.
+
+Error deleting C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor: The directory is not empty.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\NBReplT_Source_Code_Tree_20140531_130559.CSV...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\NBReplT_Source_Code_Tree_20140531_130559.CSV for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\OutToFile_STDERR_10000_20150608_010830.TXT.lnk...
+Error deleting C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\OutToFile_STDERR_10000_20150608_010830.TXT.lnk: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Symbol_Server_Setup_Walkthrough.url...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Symbol_Server_Setup_Walkthrough.url for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Testing_Worksheets_Version_6.0.XLSX...deleted.
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\TestStandTrace.LOG...deleted.
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\TestStandTrace_20150617_234803.LOG...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\TestStandTrace_20150617_234803.LOG for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\TestStand_FixedWriter_STDOUT_20150608_014206.LOG...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\TestStand_FixedWriter_STDOUT_20150608_014206.LOG for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\TestStand_FixedWriter_STDOUT_20150608_021644.LOG...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\TestStand_FixedWriter_STDOUT_20150608_021644.LOG for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\TestStand_STDOUT_20150617_225426.LOG...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\TestStand_STDOUT_20150617_225426.LOG for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\TestStand_STDOUT_20150617_234802.LOG...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\TestStand_STDOUT_20150617_234802.LOG for delete: Access is denied.
+
+Error deleting C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Test_Data: The directory is not empty.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Test_Run_without_Command_Line_Arguments.DOCX...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Test_Run_without_Command_Line_Arguments.DOCX for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Test_Run_without_Command_Line_Arguments.PDF...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Test_Run_without_Command_Line_Arguments.PDF for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Timed_Halt_with_Debugger_Absent.DOCX...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Timed_Halt_with_Debugger_Absent.DOCX for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\WizardWrx.ConsoleAppAids_TestStand.DOCX...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\WizardWrx.ConsoleAppAids_TestStand.DOCX for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\WizardWrx.ConsoleAppAids_TestStand_5.5.DOCX...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\WizardWrx.ConsoleAppAids_TestStand_5.5.DOCX for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\WizardWrx.ConsoleAppAids_TestStand_6.0.DOCX...deleted.
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\XREF_AppExceptionLogger_20140518_203819.TXT...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\XREF_AppExceptionLogger_20140518_203819.TXT for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\XREF_ExceptionReporting_20140518_150702.TXT...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\XREF_ExceptionReporting_20140518_150702.TXT for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\XREF_ThreadSafeExceptionReporting_20140518_194509.TXT...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\XREF_ThreadSafeExceptionReporting_20140518_194509.TXT for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\FixedConsoleWriter\Composite_Formatting.url...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\FixedConsoleWriter\Composite_Formatting.url for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\FixedConsoleWriter\FixedConsoleWriter.cs.lnk...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\FixedConsoleWriter\FixedConsoleWriter.cs.lnk for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\FixedConsoleWriter\FixedConsoleWriter.XLSX.lnk...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\FixedConsoleWriter\FixedConsoleWriter.XLSX.lnk for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\FixedConsoleWriter\Integration_Notes.TXT...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\FixedConsoleWriter\Integration_Notes.TXT for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\FixedConsoleWriter\Program.cs.lnk...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\FixedConsoleWriter\Program.cs.lnk for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\FixedConsoleWriter\Testing_Journal.DOCX.lnk...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\FixedConsoleWriter\Testing_Journal.DOCX.lnk for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\FixedConsoleWriter\TimedHalt_Tests.TXT.lnk...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\FixedConsoleWriter\TimedHalt_Tests.TXT.lnk for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\ConsoleColors_Reference_Lists.XLSX.lnk...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\ConsoleColors_Reference_Lists.XLSX.lnk for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\Demonstration_Screens.DOCX...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\Demonstration_Screens.DOCX for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\Demonstration_Screens_2.DOCX...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\Demonstration_Screens_2.DOCX for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\Demonstration_Version 3.6.197.29569.DOCX...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\Demonstration_Version 3.6.197.29569.DOCX for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\Demonstration_Version 3.6.197.29569._Printing.PDF...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\Demonstration_Version 3.6.197.29569._Printing.PDF for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\Demonstration_Version 3.6.197.29569._Standard.PDF...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\Demonstration_Version 3.6.197.29569._Standard.PDF for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\Demonstration_Version 3.6.197.29569._Web.PDF...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\Demonstration_Version 3.6.197.29569._Web.PDF for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\Development_Notes_Version_3.2.TXT...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\Development_Notes_Version_3.2.TXT for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\Development_Notes_Version_3.3.TXT...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\Development_Notes_Version_3.3.TXT for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\Development_Notes_Version_3.4.TXT...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\Development_Notes_Version_3.4.TXT for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\Development_Notes_Version_3.6.TXT...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\Development_Notes_Version_3.6.TXT for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\ErrorMessagesInColor.cs.TXT...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\ErrorMessagesInColor.cs.TXT for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\ExerciseColorWrite.TXT...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\ExerciseColorWrite.TXT for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\ExerciseColorWriteLine.TXT...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\ExerciseColorWriteLine.TXT for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\HCU_Software_NicoMak.REG.lnk...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\HCU_Software_NicoMak.REG.lnk for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\HKLM_SOFTWARE_NicoMakComputing.REG.lnk...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\HKLM_SOFTWARE_NicoMakComputing.REG.lnk for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\InstanceMethodTests.TXT...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\InstanceMethodTests.TXT for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\StaticMethodTests.TXT...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\StaticMethodTests.TXT for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\STDERR_Tests_Set_1.ZIPX...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\STDERR_Tests_Set_1.ZIPX for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\Technical_Documentation_Worksheets.XLSX...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\Technical_Documentation_Worksheets.XLSX for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\WinZip_Command_Line_AddOn_Requirements.PDF.lnk...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\WinZip_Command_Line_AddOn_Requirements.PDF.lnk for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\WinZip_Installation_Directory.lnk...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\WinZip_Installation_Directory.lnk for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\WriteLineInColor_Methods.TXT...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\WriteLineInColor_Methods.TXT for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\WriteLine_Methods.TXT...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\WriteLine_Methods.TXT for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\Write_Methods.TXT...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\MessageInColor\Write_Methods.TXT for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Test_Data\ApplicationEvents_WizardWrx_ENIGMA_20151115_093739.TXT...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Test_Data\ApplicationEvents_WizardWrx_ENIGMA_20151115_093739.TXT for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Test_Data\ApplicationEvents_WizardWrx_ENIGMA_20151116_214129.TXT...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Test_Data\ApplicationEvents_WizardWrx_ENIGMA_20151116_214129.TXT for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Test_Data\ApplicationEvents_WizardWrx_ENIGMA_20151116_232917.TXT...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Test_Data\ApplicationEvents_WizardWrx_ENIGMA_20151116_232917.TXT for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Test_Data\ConsoleAppAidsRedirected.LOG...deleted.
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Test_Data\ConsoleAppAidsRedirected_20151114_202704.LOG...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Test_Data\ConsoleAppAidsRedirected_20151114_202704.LOG for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Test_Data\ConsoleAppAidsRedirected_20151115_112228.LOG...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Test_Data\ConsoleAppAidsRedirected_20151115_112228.LOG for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Test_Data\ConsoleAppAidsRedirected_20151122_001105.LOG...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Test_Data\ConsoleAppAidsRedirected_20151122_001105.LOG for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Test_Data\ConsoleAppAidsRedirected_20151122_001853.LOG...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Test_Data\ConsoleAppAidsRedirected_20151122_001853.LOG for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Test_Data\ConsoleAppAidsRedirected_20151122_011845.LOG...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Test_Data\ConsoleAppAidsRedirected_20151122_011845.LOG for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Test_Data\ExportFromEventLog1Source.CMD.lnk...
+Error deleting C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Test_Data\ExportFromEventLog1Source.CMD.lnk: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Test_Data\TestStandTrace.LOG...deleted.
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Test_Data\TestStandTrace_20151116_231816.LOG...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Test_Data\TestStandTrace_20151116_231816.LOG for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Test_Data\TimedWaitTests.TXT...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Test_Data\TimedWaitTests.TXT for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Test_Data\TimedWaitTests_InterruptCriterion.TXT...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Test_Data\TimedWaitTests_InterruptCriterion.TXT for delete: Access is denied.
+
+C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Test_Data\TimedWaitTests_Regression.TXT...
+Error opening C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2\NOTES\Test_Data\TimedWaitTests_Regression.TXT for delete: Access is denied.
+
+84 files found
+3 folders found
+
+C:\Users\DAVE>

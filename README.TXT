@@ -1,0 +1,110 @@
+                            ConsoleAppAids2 ReadMe
+
+================================================================================
+2016-06-08 17:23:36
+================================================================================
+
+The purpose of this class library is to expedite development of new character
+mode (Console) applications that target any version of the Microsoft .NET
+Framework, from version 2.0 up. The classes in this library define numerous
+utility classes, many of which build on the code in WizardWrx.DLLServices2.dll,
+available at https://github.com/txwizard/DLLServices2 under a thre-clause BSD
+license, by adding specialized capabilities that meet requirements applicable
+only to console programs.
+
+Everything in this library belongs to the WizardWrx.ConsoleAppAids2 namespace, to
+bind their association with the DLL of the same name. The following table briefly
+summarizes the classes.
+
+Class Name             Abstract
+---------------------- ---------------------------------------------------------
+ConsoleAppStateManager This class is an WizardWrx.DLLServices2.StateManager
+                       adapter, which exposes the adapted object through its
+                       read only BaseStateManager property, and extends it with
+                       methods that provide services applicable exclusively to
+                       character mode (console mode) programs, such as looking
+                       after the logo and shutdown messages, and keeping track
+                       of elapsed running time for inclusion in the final
+                       message.
+
+DisplayAids            Use the methods of this sealed (implicitly static) class
+                       to precisely control the way your application handles
+                       pauses.
+
+FixedConsoleWriter     Instances of this class permit a line of a console window
+                       to be used repeatedly for successive lines of text,
+                       replacing the contents of the previous print statement,
+                       so that the lines above it don't scroll off the screen.
+                       Once instantiated, instances of this class behave almost
+                       exactly like Console.WriteLine, and you can drop them
+                       into your code in its place, because its overloads have
+                       identical signatures.
+
+--------------------------
+ToDo List
+--------------------------
+
+Although I got the timed wait to work correctly when standard output is
+redirected, I deferred doing what must be doone to fix the same issue in the
+underlying FixedConsoleWriter class, because it requires modifying its seventeen
+Write methods to use the same approach that I implemented directly in the timed
+wait method. The change will also require a new private data store and a new
+instance method, to allow consumers the option of returning the carriage. There
+is enough other good material here that I decided against waiting to publish.
+
+--------------------------
+Compatibility Counts!
+--------------------------
+
+To maximize compatibility with client code, the library targets version 2.0 of
+the Microsoft .NET Framework, enabling it to support projects that target that
+version, or any later version, of the framework. Since its implementation needs
+only core features of the Base Class Library, I have yet to discover an issue in
+using it with any of the newer frameworks.
+
+The class belongs to the WizardWrx namespace, which I created to organize the
+helper libraries that I use in virtually every production assembly, regardless
+of what framework version is its target, and whether its surface is a Windows
+console, the Windows desktop, or the ASP.NET Web server. To date, I have used
+classes and methods in these libraries in all three environments.
+
+The next several sections cover special considerations of which you must be
+aware if you incorporate this package into your code as is or if you want to
+modify it.
+
+--------------------------
+Required External Tools
+--------------------------
+
+The pre and post build tesks and the test scripts found in the /scripts
+directory use a number of tools that I have developed over many years. Since
+they live in a directory that is on the PATH list on my machine, they are "just
+there" when I need them, and I seldom give them a second thought. To simplify
+matters for anybody who wants to run the test scripts or build the project, they
+are in DAGDevTOOLS.ZIP, which can be extracted into any directory that happens
+to be on your PATH list. None of them requires installation, none of the DLLs is
+registered for COM, and none of them or their DLLs use the Windows Registry.
+
+A few use MSVCR120.dll, which is not included, but you probably have it if you
+have a compatible version of Microsoft Visual Studio. The rest use MSVCRT.DLL,
+which ships with Microsoft Windows.
+
+Please see ReadMe_External_Tools.TXT for details about these programs and shell
+scripts.
+
+--------------------------
+Internal Documentation
+--------------------------
+
+The source code includes comprehenisve technical documentation, including XML to
+generate IntelliSense help, from which the build engine generates XML documents,
+which are included herein. Argument names follow Hungarian notation, to make the
+type immediately evident in most cases. A lower case "p" precedes a type prefix,
+to differentiate arguments from local variables, followed by a lower case "a" to
+designate arguments that are arrays. Object variables have an initial underscore
+and static variables begin with "s_"; this naming scheme makes variable scope
+crystal clear.
+
+The classes are thoroughly cross referenced, and many properties and methods
+have working links to relevant MSDN pages.
+================================================================================

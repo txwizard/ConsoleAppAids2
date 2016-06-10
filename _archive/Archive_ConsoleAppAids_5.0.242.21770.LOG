@@ -1,0 +1,48 @@
+"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids2\_archive\Archive_ConsoleAppAids.CMD" Begin
+
+------------------------------------------------------------------------
+Project Assembly = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids2\ConsoleAppAids2\bin\Release\WizardWrx.ConsoleAppAids2.dll
+Backup Directory = C:\COMMON_DATA\Assorted_Zips\program_source\Visual Studio 2010
+Backup Password  = Default
+------------------------------------------------------------------------
+
+WWSourceCodeArchiver, version 2.0.11.25045
+Begin @ 06/07/2014 15:41:00 (06/07/2014 20:41:00 UTC)
+
+ProjectPath            = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids2\ConsoleAppAids2\bin\Release\WizardWrx.ConsoleAppAids2.dll
+TargetPath             = C:\COMMON_DATA\Assorted_Zips\program_source\Visual Studio 2010\
+Product Type           = DynamicLinkLibrary
+
+Program Directory Name = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids2\ConsoleAppAids2\bin\Release
+Program File Name      = WizardWrx.ConsoleAppAids2.dll
+    File Size          = 15,872
+    Create Date (LOC)  = 2014/06/07 13:05:42.102
+    Create Date (UTC)  = 2014/06/07 18:05:42.102
+    Mod Date (LOC)     = 2014/06/07 13:05:42.087
+    Mod Date (UTC)     = 2014/06/07 18:05:42.087
+Project Name           = ConsoleAppAids2
+Project Root           = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids2\
+Assembly FullName      = WizardWrx.ConsoleAppAids2, Version=5.0.242.21770, Culture=neutral, PublicKeyToken=null
+    BaseName           = WizardWrx.ConsoleAppAids2
+    Full Version       = 5.0.242.21770
+    Culture            = neutral
+    PublicKeyToken     = null
+
+2014/06/07 15:41:01.818 Creating archive.
+2014/06/07 15:41:21.724 The archive was successfully created.
+2014/06/07 15:41:21.833 Archive flag reset on 196 project files.
+
+Archive FQFN           = C:\COMMON_DATA\Assorted_Zips\program_source\Visual Studio 2010\WizardWrx.ConsoleAppAids2_5_0_242_21770.7z
+    File Size          = 10,523,854
+    Create Date (LOC)  = 2014/06/07 15:41:02.302
+    Create Date (UTC)  = 2014/06/07 20:41:02.302
+    Mod Date (LOC)     = 2014/06/07 15:41:21.708
+    Mod Date (UTC)     = 2014/06/07 20:41:21.708
+
+WWSourceCodeArchiver End - 06/07/2014 15:41:22 (06/07/2014 20:41:22 UTC)
+Elapsed time: 00:00:21.453
+WWPause version 2, 0, 0, 3
+Sat 07 Jun 2014 20:41:22 UTC
+Sat 07 Jun 2014 15:41:22 Local
+
+Please press RETURN when ready...

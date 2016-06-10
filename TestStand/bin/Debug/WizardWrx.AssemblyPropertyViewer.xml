@@ -1,0 +1,422 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>WizardWrx.AssemblyPropertyViewer</name>
+    </assembly>
+    <members>
+        <member name="T:WizardWrx.AssemblyPropertyViewer">
+            <summary>
+            This class both emulates and extends the My class found in the namespace
+            of every Visual Basic .NET program.
+            </summary>
+        </member>
+        <member name="F:WizardWrx.AssemblyPropertyViewer.NAME_ONLY">
+            <summary>
+            Return only the base name, which is usually the same as the
+            base name of the file that contains the assembly.
+            </summary>
+        </member>
+        <member name="F:WizardWrx.AssemblyPropertyViewer.NAME_AND_VERSION_ONLY">
+            <summary>
+            Return the name and version parts of the assembly's FullName
+            property.
+            </summary>
+        </member>
+        <member name="F:WizardWrx.AssemblyPropertyViewer.FULLNAME_PART_DLM">
+            <summary>
+            The Assembly.FullName property is divided into segments, separated
+            by commas. This constant is used internally to parse the string,
+            but might have utility outside the class.
+            </summary>
+        </member>
+        <member name="M:WizardWrx.AssemblyPropertyViewer.#ctor">
+            <summary>
+            Although this constructor is marked public, none of the other
+            properties is valid until the assembly file name is initialized.
+            
+            To do so, set the AssemblyName property.
+            </summary>
+        </member>
+        <member name="M:WizardWrx.AssemblyPropertyViewer.Initialize(System.String)">
+            <summary>
+            Set the AssemblyName property, and initialize the remaining
+            properties, all of which are read only.
+            </summary>
+            <param name="pstrAssemblyFileName">
+            This string must be the name of a file which contains a Microsoft
+            .NET assembly. The file must exist, and the current user must have
+            permission to read it.
+            </param>
+        </member>
+        <member name="M:WizardWrx.AssemblyPropertyViewer.NameVersionString(System.Int32)">
+            <summary>
+            Given an integer, indicating how many segments of the full name of
+            the assembly are desired, return the requested number of parts.
+            </summary>
+            <param name="pintNParts">
+            Integer specifying the number of parts of the name to return. The
+            higher the number, the more complete is the returned name.
+            </param>
+            <returns>
+            String containing the requested parts of the assembly's FullName
+            property.
+            </returns>
+        </member>
+        <member name="M:WizardWrx.AssemblyPropertyViewer.NameVersionString(WizardWrx.AssemblyPropertyViewer.HowManyFullNameParts)">
+            <summary>
+            Given an integer, indicating how many segments of the full name of
+            the assembly are desired, return the requested number of parts.
+            </summary>
+            <param name="penmHowManyFullNameParts">
+            Member of the HowManyFullNameParts enumeration, specifying the number of
+            parts of the name to return. The higher the number, the more
+            complete is the returned name.
+            </param>
+            <returns>
+            String containing the requested parts of the assembly's FullName
+            property.
+            </returns>
+        </member>
+        <member name="M:WizardWrx.AssemblyPropertyViewer.AssemblyVersionString(System.Object,System.Int32)">
+            <summary>
+            Get the assembly to which the specified class belongs, and parse its
+            FullName string, returning the specified number of parts of it.
+            </summary>
+            <param name="pobjAny">
+            Reference to an object whose assembly name is requred.
+            </param>
+            <param name="pintNParts">
+            Integer specifying the number of parts of the name to return. The
+            higher the number, the more complete is the returned name.
+            </param>
+            <returns>
+            String containing the requested parts of the assembly's FullName
+            property.
+            </returns>
+        </member>
+        <member name="M:WizardWrx.AssemblyPropertyViewer.AssemblyVersionString(System.Object,WizardWrx.AssemblyPropertyViewer.HowManyFullNameParts)">
+            <summary>
+            Get the assembly to which the specified class belongs, and parse its
+            FullName string, returning the specified number of parts of it.
+            </summary>
+            <param name="pobjAny">
+            Reference to an object whose assembly name is requred.
+            </param>
+            <param name="penmHowManyFullNameParts">
+            Member of the HowManyFullNameParts enumeration, specifying the number of
+            parts of the name to return. The higher the number, the more
+            complete is the returned name.
+            </param>
+            <returns>
+            String containing the requested parts of the assembly's FullName
+            property.
+            </returns>
+        </member>
+        <member name="M:WizardWrx.AssemblyPropertyViewer.AssemblyVersionString(System.Reflection.Assembly,System.Int32)">
+            <summary>
+            Parse the FullName string of the specified Aeembly, returning the
+            specified number of parts of it.
+            </summary>
+            <param name="pasmMe">
+            Reference to the Assembly whose FullName is to be parsed.
+            </param>
+            <param name="pintNParts">
+            Integer specifying the number of parts of the name to return. The
+            higher the number, the more complete is the returned name.
+            </param>
+            <returns>
+            String containing the requested parts of the assembly's FullName
+            property.
+            </returns>
+        </member>
+        <member name="M:WizardWrx.AssemblyPropertyViewer.AssemblyVersionString(System.Reflection.Assembly,WizardWrx.AssemblyPropertyViewer.HowManyFullNameParts)">
+            <summary>
+            Parse the FullName string of the specified Aeembly, returning the
+            specified number of parts of it.
+            </summary>
+            <param name="pasmMe">
+            Reference to the Assembly whose FullName is to be parsed.
+            </param>
+            <param name="penmHowManyFullNameParts">
+            Member of the HowManyFullNameParts enumeration, specifying the number of
+            parts of the name to return. The higher the number, the more
+            complete is the returned name.
+            </param>
+            <returns>
+            String containing the requested parts of the assembly's FullName
+            property.
+            </returns>
+        </member>
+        <member name="M:WizardWrx.AssemblyPropertyViewer.ExtractAseemblyInfoItem(System.String@,System.String)">
+            <summary>
+            Given a reference to a long string, containing the contents of an
+            AssemblyInfo.cs file, minus its Byte Order Mark, and a reference to
+            the label, return the corresponding value from the AssemblyInfo.cs
+            file.
+            </summary>
+            <param name="pstrAssemblyInfo">
+            String containing the contents of the AssemblyInfo.cs file to parse.
+            You can use the ReadToEnd method of a StreamReader object, which you
+            must either accept the default text encoding of UTF8, or explicitly
+            specify that encoding when you create your StreamReader object.
+            </param>
+            <param name="pstrLabel">
+            The label of the item sought. For example, to get the AssemblyTitle,
+            specify "AssemblyTitle" only. This method supplies the rest. By this
+            means, any of the standard properties, including ComVisible, can be
+            extracted.
+            </param>
+            <returns>
+            String containing the value of the sought property, if it has been
+            set. The returned string may be empty. The returned value is always
+            a string, even for the Boolean ComVisible property.
+            </returns>
+        </member>
+        <member name="M:WizardWrx.AssemblyPropertyViewer.ExtractFullnamePart(System.String,WizardWrx.AssemblyPropertyViewer.FullNamePart)">
+            <summary>
+            Given a copy of the string returned by the AssemblyFullName property of an
+            assembly, extract and return a specified part of the name.
+            </summary>
+            <param name="pstrFullName">
+            String containing the AssemblyFullName property to parse.
+            </param>
+            <param name="penmWhicPart">
+            Member of the FullNamePart enumeration, which identifies, by its common
+            name, the part to extract and return.
+            </param>
+            <returns>
+            String containing the selected part of the AssemblyFullName. 
+            </returns>
+        </member>
+        <member name="P:WizardWrx.AssemblyPropertyViewer.AssembyDirName">
+            <summary>
+            Returns a String containing the name of the directory that contains
+            the file in which the Assembly to which the object named in the
+            class constructor belongs is stored.
+            
+            The returned string comes without a trailing path delimiter, so one
+            must be appended if you intend to use it as the starting point for a
+            fully qualified path or file name.
+            
+            Read only.
+            </summary>
+        </member>
+        <member name="P:WizardWrx.AssemblyPropertyViewer.AssemblyName">
+            <summary>
+            This REQUIRED property defines the name of the assembly which is the
+            subject of the instance.
+            
+            This is the only Read/Write property, which exists because the COM
+            subsystem insists on a default constructor.
+            </summary>
+        </member>
+        <member name="P:WizardWrx.AssemblyPropertyViewer.AssemblyFileName">
+            <summary>
+            Returns a String containing the name of the file in which the
+            Assembly to which the object named in the class constructor
+            belongs is stored. The returned string includes the extension,
+            if any.
+            
+            Read only.
+            </summary>
+        </member>
+        <member name="P:WizardWrx.AssemblyPropertyViewer.AssemblyGuidAttrib">
+            <summary>
+            Return the GuidAttribute assigned to the assembly, and stored in its
+            AssemblyInfo document.
+            
+            Read only.
+            </summary>
+            <remarks>
+            References: "How to get C# Assembly GUID"
+                        http://c-sharp-programming.blogspot.com/2008/08/how-to-get-c-assembly-guid.html
+            
+            However, since the syntax editor didn't see Value as a property of
+            the generic Object class, I created a new GuidAttribute object, and
+            cast the GUID attribute object to it. That worked just as expected.
+            </remarks>
+            <seealso cref="P:WizardWrx.AssemblyPropertyViewer.AssemblyGuidString"/>
+        </member>
+        <member name="P:WizardWrx.AssemblyPropertyViewer.AssemblyGuidString">
+            <summary>
+            Return the GUID string assigned to the assembly, and stored in its
+            AssemblyInfo document.
+            </summary>
+            <remarks>
+            References: "How to get C# Assembly GUID"
+                        http://c-sharp-programming.blogspot.com/2008/08/how-to-get-c-assembly-guid.html
+            
+            However, since the syntax editor didn't see Value as a property of
+            the generic Object class, I created a new GuidAttribute object, and
+            cast the GUID attribute object to it. That worked just as expected.
+            
+            Read only.
+            </remarks>
+            <seealso cref="P:WizardWrx.AssemblyPropertyViewer.AssemblyGuidAttrib"/>
+        </member>
+        <member name="P:WizardWrx.AssemblyPropertyViewer.AssemblyFileBaseName">
+            <summary>
+            Returns a String containing the name of the file in which the
+            Assembly to which the object named in the class constructor
+            belongs is stored. The extension, if any, is omitted. To get the
+            name, including the extension, query the AssemblyFileName property.
+            
+            Read only.
+            </summary>
+        </member>
+        <member name="P:WizardWrx.AssemblyPropertyViewer.Comments">
+            <summary>
+            Returns a string containing the Comments from the AssemblyInfo
+            document, which becomes the Version string resources in the program
+            file.
+            
+            Read only.
+            </summary>
+        </member>
+        <member name="P:WizardWrx.AssemblyPropertyViewer.CompanyName">
+            <summary>
+            Returns a string containing the CompanyName from the AssemblyInfo
+            document, which becomes the Version string resources in the program
+            file.
+            
+            Read only.
+            </summary>
+        </member>
+        <member name="P:WizardWrx.AssemblyPropertyViewer.Culture">
+            <summary>
+            Returns a string containing the assembly culture, parsed from the
+            FullName property of the Assembly to which the object named in the
+            class constructor belongs.
+            
+            See FullNamePart.Culture for additional details.
+            
+            Read only.
+            </summary>
+        </member>
+        <member name="P:WizardWrx.AssemblyPropertyViewer.Description">
+            <summary>
+            Returns a string containing the Description from the AssemblyInfo
+            document, which becomes the Version string resources in the program
+            file.
+            
+            Read only.
+            </summary>
+        </member>
+        <member name="P:WizardWrx.AssemblyPropertyViewer.MiscVersionInfo">
+            <summary>
+            Return the whole FileVersionInfo object, so that anybody who needs
+            one of its less frequently used properties can easily get it.
+            
+            Read only.
+            </summary>
+        </member>
+        <member name="P:WizardWrx.AssemblyPropertyViewer.ObjectAssembly">
+            <summary>
+            Return a reference to the Assembly to which the object named in the
+            class constructor belongs.
+            
+            Read only.
+            </summary>
+        </member>
+        <member name="P:WizardWrx.AssemblyPropertyViewer.PublicKeyToken">
+            <summary>
+            Returns a string containing the assembly culture, parsed from the
+            FullName property of the Assembly to which the object named in the
+            class constructor belongs.
+            
+            Read only.
+            </summary>
+            <remarks>
+            Although this accessor behaves more like a method, I implemented it
+            as a read only property to simplify access.
+            
+            Use of the FullNamePart.PublicKeyToken property is deprecated.
+            </remarks>
+        </member>
+        <member name="P:WizardWrx.AssemblyPropertyViewer.LegalCopyright">
+            <summary>
+            Returns a string containing the LegalTrademark from the AssemblyInfo
+            document, which becomes the Version string resources in the program
+            file.
+            
+            Read only.
+            </summary>
+        </member>
+        <member name="P:WizardWrx.AssemblyPropertyViewer.LegalTrademarks">
+            <summary>
+            Returns a string containing the LegalTrademarks from the
+            AssemblyInfo document, which becomes the Version string resources in
+            the program file.
+            
+            Read only.
+            </summary>
+        </member>
+        <member name="P:WizardWrx.AssemblyPropertyViewer.VersionString">
+            <summary>
+            Returns a string containing the assembly version, parsed from the
+            FullName property of the Assembly to which the object named in the
+            class constructor belongs.
+            
+            Read only.
+            </summary>
+        </member>
+        <member name="T:WizardWrx.AssemblyPropertyViewer.HowManyFullNameParts">
+            <summary>
+            Argument penmHowManyFullNameParts of methods NameVersionString and
+            AssemblyVersionString is of this type.
+            </summary>
+        </member>
+        <member name="F:WizardWrx.AssemblyPropertyViewer.HowManyFullNameParts.NameOnly">
+            <summary>
+            Return only the base name, which is usually the same as the
+            base name of the file that contains the assembly.
+            </summary>
+        </member>
+        <member name="F:WizardWrx.AssemblyPropertyViewer.HowManyFullNameParts.NameAndVersion">
+            <summary>
+            Return the name and version parts of the assembly's FullName
+            property.
+            </summary>
+        </member>
+        <member name="T:WizardWrx.AssemblyPropertyViewer.FullNamePart">
+            <summary>
+            Enumeration of parts (substrings) of the FullName property of an
+            Assembly.
+            </summary>
+        </member>
+        <member name="F:WizardWrx.AssemblyPropertyViewer.FullNamePart.SimpleName">
+            <summary>
+            The simple (base) name, which is usually the same as the base
+            name of the file in which the assembly is stored.
+            </summary>
+        </member>
+        <member name="F:WizardWrx.AssemblyPropertyViewer.FullNamePart.VersionString">
+            <summary>
+            The version string, such as 2.0.0.1. This corresponds to the
+            AssemblyVersion, and, usually, the AssemblyFileVersion,
+            properties.
+            </summary>
+        </member>
+        <member name="F:WizardWrx.AssemblyPropertyViewer.FullNamePart.Culture">
+            <summary>
+            The string that defines the culture, which corresponds to the
+            AssemblyCulture property of the assembly. If this string is
+            empty, the returned value is neutral.
+            </summary>
+        </member>
+        <member name="F:WizardWrx.AssemblyPropertyViewer.FullNamePart.PublicKeyToken">
+            <summary>
+            The Public Key Token property, which is null, and returns a
+            string value of null, unless the assembly has a strong name. If
+            the assembly has a strong name, this string returns the public
+            key token of the key with which the assembly was signed.
+            </summary>
+            <remarks>
+            Use of this enumerated value is DEORECATED.
+            
+            Use the PublicKeyToken property, which always returns a correct
+            value, which is null, unless the assembly has a strong name.
+            </remarks>
+        </member>
+    </members>
+</doc>

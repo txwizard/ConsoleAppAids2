@@ -1,0 +1,45 @@
+"C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\_archive\Archive_ConsoleAppAids.CMD" Begin
+
+Project Assembly = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ConsoleAppAids.dll
+Backup Directory = C:\COMMON_DATA\Assorted_Zips\program_source\Visual Studio 2010
+
+WWSourceCodeArchiver, version 2.0.11.25045
+Begin @ 01/07/2014 01:52:50 (01/07/2014 07:52:50 UTC)
+
+ProjectPath            = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release\WizardWrx.ConsoleAppAids.dll
+TargetPath             = C:\COMMON_DATA\Assorted_Zips\program_source\Visual Studio 2010\
+Product Type           = DynamicLinkLibrary
+
+Program Directory Name = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\ConsoleAppAids\bin\Release
+Program File Name      = WizardWrx.ConsoleAppAids.dll
+    File Size          = 15,872
+    Create Date (LOC)  = 2013/02/18 19:26:06.636
+    Create Date (UTC)  = 2013/02/19 01:26:06.636
+    Mod Date (LOC)     = 2014/01/07 01:50:45.598
+    Mod Date (UTC)     = 2014/01/07 07:50:45.598
+Project Name           = ConsoleAppAids
+Project Root           = C:\Documents and Settings\DAG\My Documents\Visual Studio 2010\Projects\WizardWrx_Libs\ConsoleAppAids\
+Assembly FullName      = WizardWrx.ConsoleAppAids, Version=3.2.15.3322, Culture=neutral, PublicKeyToken=null
+    BaseName           = WizardWrx.ConsoleAppAids
+    Full Version       = 3.2.15.3322
+    Culture            = neutral
+    PublicKeyToken     = null
+
+2014/01/07 01:52:51.324 Creating archive.
+2014/01/07 01:52:53.528 The archive was successfully created.
+2014/01/07 01:52:53.606 Archive flag reset on 29 project files.
+
+Archive FQFN           = C:\COMMON_DATA\Assorted_Zips\program_source\Visual Studio 2010\WizardWrx.ConsoleAppAids_3_2_15_3322.7z
+    File Size          = 41,234
+    Create Date (LOC)  = 2014/01/07 01:52:51.793
+    Create Date (UTC)  = 2014/01/07 07:52:51.793
+    Mod Date (LOC)     = 2014/01/07 01:52:53.528
+    Mod Date (UTC)     = 2014/01/07 07:52:53.528
+
+WWSourceCodeArchiver End - 01/07/2014 01:52:54 (01/07/2014 07:52:54 UTC)
+Elapsed time: 00:00:03.593
+WWPause version 2, 0, 0, 3
+Tue 07 Jan 2014 07:52:54 UTC
+Tue 07 Jan 2014 01:52:54 Local
+
+Please press RETURN when ready...

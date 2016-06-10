@@ -1,0 +1,406 @@
+
+        private static void ExerciseInstanceColorWrite ( MessageInColor pmsgObj )
+        {
+            const ConsoleColor FGCOLOR = ConsoleColor.Black;
+            const ConsoleColor BGCOLOR = ConsoleColor.Yellow;
+
+            //  ----------------------------------------------------------------
+            //  Test overload 1 of 18, pmsgObj.Write ( bool value ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( SEND_LINEFEED );
+            pmsgObj.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                BOOL2SHOW );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 2 of 18, pmsgObj.Write ( char value ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( SEND_LINEFEED );
+            pmsgObj.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                CHAR2SHOW );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 3 of 18, pmsgObj.Write ( char [ ] buffer ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( SEND_LINEFEED );
+            pmsgObj.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                s_achr2Show );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 4 of 18, pmsgObj.Write ( decimal value ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( SEND_LINEFEED );
+            pmsgObj.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                DEC2SHOW );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 5 of 18, pmsgObj.Write ( double value ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( SEND_LINEFEED );
+            pmsgObj.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                DBL2SHOW );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 6 of 18, pmsgObj.Write ( float value ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( SEND_LINEFEED );
+            pmsgObj.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                FLT2SHOW );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 7 of 18, pmsgObj.Write ( int value ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( SEND_LINEFEED );
+            pmsgObj.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                INT2SHOW );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 8 of 18, pmsgObj.Write ( long value ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( SEND_LINEFEED );
+            pmsgObj.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                LNG2SHOW );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 9 of 18, pmsgObj.Write ( object value ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( SEND_LINEFEED );
+            pmsgObj.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                s_aobj2Show [ StandardConstants.ARRAY_FIRST_ELEMENT ] );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 10 of 18, pmsgObj.Write ( string value ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( SEND_LINEFEED );
+            pmsgObj.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                STR2SHOW );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 11 of 18, pmsgObj.Write ( uint value ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( SEND_LINEFEED );
+            pmsgObj.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                UINT2SHOW );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 12 of 18, pmsgObj.Write ( ulong value ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( SEND_LINEFEED );
+            pmsgObj.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                ULNG2SHOW );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 13 of 18, pmsgObj.Write ( string format, object arg0 ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( SEND_LINEFEED );
+            pmsgObj.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                Properties.Resources.MSG_FORMAT_13 ,
+                s_aobj2Show [ StandardConstants.ARRAY_FIRST_ELEMENT ] );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 14 of 18, pmsgObj.Write ( string format, params object [ ] arg ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( SEND_LINEFEED );
+            pmsgObj.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                Properties.Resources.MSG_FORMAT_14 ,
+                s_aobj2Show );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 15 of 18, pmsgObj.Write ( string format, char [ ] buffer, int index ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( SEND_LINEFEED );
+            pmsgObj.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                s_achr2Show ,
+                SUBARRAY_INDEX ,
+                SUBARRAY_COUNT );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 16 of 18, pmsgObj.Write ( string format, object arg0, object arg1 ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( SEND_LINEFEED );
+            pmsgObj.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                Properties.Resources.MSG_FORMAT_16 ,
+                s_aobj2Show [ OBJECT_ARG0 ] ,
+                s_aobj2Show [ OBJECT_ARG1 ] );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 17 of 18, pmsgObj.Write ( string format, object arg0, object arg1, object arg2 ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( SEND_LINEFEED );
+            pmsgObj.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                Properties.Resources.MSG_FORMAT_17 ,
+                s_aobj2Show [ OBJECT_ARG0 ] ,
+                s_aobj2Show [ OBJECT_ARG1 ] ,
+                s_aobj2Show [ OBJECT_ARG2 ] );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 18 of 18, pmsgObj.Write ( string format, object arg0, object arg1, object arg2 ,object arg3 ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( SEND_LINEFEED );
+            pmsgObj.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                Properties.Resources.MSG_FORMAT_18 ,
+                s_aobj2Show [ OBJECT_ARG0 ] ,
+                s_aobj2Show [ OBJECT_ARG1 ] ,
+                s_aobj2Show [ OBJECT_ARG2 ] ,
+                s_aobj2Show [ OBJECT_ARG3 ] );
+
+            //  ----------------------------------------------------------------
+            //  Follow the last test with a newline.
+            //  ----------------------------------------------------------------
+
+            Console.WriteLine ( );
+        }   // private static void ExerciseInstanceColorWrite
+
+
+        private static void ExerciseInstanceColorWriteLine ( MessageInColor pmsgObj )
+        {
+            const ConsoleColor FGCOLOR = ConsoleColor.Yellow;
+            const ConsoleColor BGCOLOR = ConsoleColor.DarkMagenta;
+
+            //  ----------------------------------------------------------------
+            //  Test overload 1 of 18, pmsgObj.WriteLine ( bool value ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( OMIT_LINEFEED );
+            pmsgObj.WriteLine (
+                FGCOLOR ,
+                BGCOLOR ,
+                BOOL2SHOW );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 2 of 18, pmsgObj.WriteLine ( char value ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( OMIT_LINEFEED );
+            pmsgObj.WriteLine (
+                FGCOLOR ,
+                BGCOLOR ,
+                CHAR2SHOW );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 3 of 18, pmsgObj.WriteLine ( char [ ] buffer ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( OMIT_LINEFEED );
+            pmsgObj.WriteLine (
+                FGCOLOR ,
+                BGCOLOR ,
+                s_achr2Show );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 4 of 18, pmsgObj.WriteLine ( decimal value ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( OMIT_LINEFEED );
+            pmsgObj.WriteLine (
+                FGCOLOR ,
+                BGCOLOR ,
+                DEC2SHOW );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 5 of 18, pmsgObj.WriteLine ( double value ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( OMIT_LINEFEED );
+            pmsgObj.WriteLine (
+                FGCOLOR ,
+                BGCOLOR ,
+                DBL2SHOW );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 6 of 18, pmsgObj.WriteLine ( float value ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( OMIT_LINEFEED );
+            pmsgObj.WriteLine (
+                FGCOLOR ,
+                BGCOLOR ,
+                FLT2SHOW );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 7 of 18, pmsgObj.WriteLine ( int value ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( OMIT_LINEFEED );
+            pmsgObj.WriteLine (
+                FGCOLOR ,
+                BGCOLOR ,
+                INT2SHOW );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 8 of 18, pmsgObj.WriteLine ( long value ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( OMIT_LINEFEED );
+            pmsgObj.WriteLine (
+                FGCOLOR ,
+                BGCOLOR ,
+                LNG2SHOW );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 9 of 18, pmsgObj.WriteLine ( object value ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( OMIT_LINEFEED );
+            pmsgObj.WriteLine (
+                FGCOLOR ,
+                BGCOLOR ,
+                s_aobj2Show [ StandardConstants.ARRAY_FIRST_ELEMENT ] );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 10 of 18, pmsgObj.WriteLine ( string value ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( OMIT_LINEFEED );
+            pmsgObj.WriteLine (
+                FGCOLOR ,
+                BGCOLOR ,
+                STR2SHOW );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 11 of 18, pmsgObj.WriteLine ( uint value ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( OMIT_LINEFEED );
+            pmsgObj.WriteLine (
+                FGCOLOR ,
+                BGCOLOR ,
+                UINT2SHOW );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 12 of 18, pmsgObj.WriteLine ( ulong value ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( OMIT_LINEFEED );
+            pmsgObj.WriteLine (
+                FGCOLOR ,
+                BGCOLOR ,
+                ULNG2SHOW );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 13 of 18, pmsgObj.WriteLine ( string format, object arg0 ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( OMIT_LINEFEED );
+            pmsgObj.WriteLine (
+                FGCOLOR ,
+                BGCOLOR ,
+                Properties.Resources.MSG_FORMAT_13 ,
+                s_aobj2Show [ StandardConstants.ARRAY_FIRST_ELEMENT ] );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 14 of 18, pmsgObj.WriteLine ( string format, params object [ ] arg ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( OMIT_LINEFEED );
+            pmsgObj.WriteLine (
+                FGCOLOR ,
+                BGCOLOR ,
+                Properties.Resources.MSG_FORMAT_14 ,
+                s_aobj2Show );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 15 of 18, pmsgObj.WriteLine ( string format, char [ ] buffer, int index ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( OMIT_LINEFEED );
+            pmsgObj.WriteLine (
+                FGCOLOR ,
+                BGCOLOR ,
+                s_achr2Show ,
+                SUBARRAY_INDEX ,
+                SUBARRAY_COUNT );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 16 of 18, pmsgObj.WriteLine ( string format, object arg0, object arg1 ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( OMIT_LINEFEED );
+            pmsgObj.WriteLine (
+                FGCOLOR ,
+                BGCOLOR ,
+                Properties.Resources.MSG_FORMAT_16 ,
+                s_aobj2Show [ OBJECT_ARG0 ] ,
+                s_aobj2Show [ OBJECT_ARG1 ] );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 17 of 18, pmsgObj.WriteLine ( string format, object arg0, object arg1, object arg2 ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( OMIT_LINEFEED );
+            pmsgObj.WriteLine (
+                FGCOLOR ,
+                BGCOLOR ,
+                Properties.Resources.MSG_FORMAT_17 ,
+                s_aobj2Show [ OBJECT_ARG0 ] ,
+                s_aobj2Show [ OBJECT_ARG1 ] ,
+                s_aobj2Show [ OBJECT_ARG2 ] );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 18 of 18, pmsgObj.WriteLine ( string format, object arg0, object arg1, object arg2 ,object arg3 ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( OMIT_LINEFEED );
+            pmsgObj.WriteLine (
+                FGCOLOR ,
+                BGCOLOR ,
+                Properties.Resources.MSG_FORMAT_18 ,
+                s_aobj2Show [ OBJECT_ARG0 ] ,
+                s_aobj2Show [ OBJECT_ARG1 ] ,
+                s_aobj2Show [ OBJECT_ARG2 ] ,
+                s_aobj2Show [ OBJECT_ARG3 ] );
+        }   // private static void ExerciseInstanceColorWriteLine
+

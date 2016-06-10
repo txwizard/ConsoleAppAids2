@@ -1,0 +1,198 @@
+        private static void ExerciseColorWrite ( )
+        {
+            const ConsoleColor FGCOLOR = ConsoleColor.Yellow;
+            const ConsoleColor BGCOLOR = ConsoleColor.DarkMagenta;
+
+            //  ----------------------------------------------------------------
+            //  Test overload 1 of 18, MessageInColor.Write ( bool value ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( );
+            MessageInColor.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                BOOL2SHOW );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 2 of 18, MessageInColor.Write ( char value ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( );
+            MessageInColor.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                CHAR2SHOW );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 3 of 18, MessageInColor.Write ( char [ ] buffer ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( );
+            MessageInColor.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                s_achr2Show );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 4 of 18, MessageInColor.Write ( decimal value ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( );
+            MessageInColor.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                DEC2SHOW );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 5 of 18, MessageInColor.Write ( double value ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( );
+            MessageInColor.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                DBL2SHOW );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 6 of 18, MessageInColor.Write ( float value ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( );
+            MessageInColor.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                FLT2SHOW );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 7 of 18, MessageInColor.Write ( int value ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( );
+            MessageInColor.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                INT2SHOW );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 8 of 18, MessageInColor.Write ( long value ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( );
+            MessageInColor.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                LNG2SHOW );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 9 of 18, MessageInColor.Write ( object value ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( );
+            MessageInColor.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                s_aobj2Show [ StandardConstants.ARRAY_FIRST_ELEMENT ] );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 10 of 18, MessageInColor.Write ( string value ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( );
+            MessageInColor.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                STR2SHOW );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 11 of 18, MessageInColor.Write ( uint value ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( );
+            MessageInColor.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                UINT2SHOW );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 12 of 18, MessageInColor.Write ( ulong value ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( );
+            MessageInColor.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                ULNG2SHOW );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 13 of 18, MessageInColor.Write ( string format, object arg0 ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( );
+            MessageInColor.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                Properties.Resources.MSG_FORMAT_13 ,
+                s_aobj2Show [ StandardConstants.ARRAY_FIRST_ELEMENT ] );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 14 of 18, MessageInColor.Write ( string format, params object [ ] arg ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( );
+            MessageInColor.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                Properties.Resources.MSG_FORMAT_14 ,
+                s_aobj2Show );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 15 of 18, MessageInColor.Write ( string format, char [ ] buffer, int index ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( );
+            MessageInColor.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                s_achr2Show ,
+                SUBARRAY_INDEX ,
+                SUBARRAY_COUNT );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 16 of 18, MessageInColor.Write ( string format, object arg0, object arg1 ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( );
+            MessageInColor.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                Properties.Resources.MSG_FORMAT_16 ,
+                s_aobj2Show [ OBJECT_ARG0 ] ,
+                s_aobj2Show [ OBJECT_ARG1 ] );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 17 of 18, MessageInColor.Write ( string format, object arg0, object arg1, object arg2 ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( );
+            MessageInColor.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                Properties.Resources.MSG_FORMAT_17 ,
+                s_aobj2Show [ OBJECT_ARG0 ] ,
+                s_aobj2Show [ OBJECT_ARG1 ] ,
+                s_aobj2Show [ OBJECT_ARG2 ] );
+
+            //  ----------------------------------------------------------------
+            //  Test overload 18 of 18, MessageInColor.Write ( string format, object arg0, object arg1, object arg2 ,object arg3 ).
+            //  ----------------------------------------------------------------
+
+            NextCase ( );
+            MessageInColor.Write (
+                FGCOLOR ,
+                BGCOLOR ,
+                Properties.Resources.MSG_FORMAT_18 ,
+                s_aobj2Show [ OBJECT_ARG0 ] ,
+                s_aobj2Show [ OBJECT_ARG1 ] ,
+                s_aobj2Show [ OBJECT_ARG2 ] ,
+                s_aobj2Show [ OBJECT_ARG3 ] );
+        }   // private static void ExerciseColorWrite

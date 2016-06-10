@@ -1,0 +1,108 @@
+﻿/*
+    ============================================================================
+
+    Namespace:          WizardWrx
+
+    Class Name:         ConsoleAppAids.ErrorMessagesInColor
+
+    File Name:          ErrorMessagesInColor.cs
+
+    Synopsis:           Expose a combination of static and instance methods that
+                        reduce writing console messages in any supported
+                        combination of foreground and background colors to
+                        method calls that mirror the Console.WriteLine methods
+                        that you already know and use.
+
+    Remarks:            This is a wrapper for the like named class in the
+                        WizardWrx.ApplicationHelpers.DLLServices namespace and
+                        class library, which makes the class directly visible
+                        through the WizardWrx.ConsoleAppAids namespace and class
+                        library. This is a workaround to maintain backward
+                        compatibility with versions of this library that
+                        originally implemented it.
+
+    Author:             David A. Gray, Simple Soft Services, Inc.
+
+    Copyright:          Copyright 2014, Simple Soft Services, Inc.
+
+    Created:            Tuesday, 03 June 2014
+
+    ----------------------------------------------------------------------------
+    Revision History
+    ----------------------------------------------------------------------------
+
+    Date       Version Author Description
+    ---------- ------- ------ --------------------------------------------------
+    2014/06/03 3.6     DAG/WW Original class relocated lock, stock, and barrel,
+                              and replaced by this wrapper class.
+    ============================================================================
+*/
+
+
+using System;
+
+namespace WizardWrx.ConsoleAppAids
+{
+    /// <summary>
+    /// Console.Error.Write and Console.Error.WriteLine metods that write in
+    /// living color.
+    /// </summary>
+    /// <remarks>
+    /// There are two identical sets of methods.
+    ///
+    /// 1) Static methods write text in your choice of foreground and background
+    /// colors, then revert the console colors to their initial values (that is,
+    /// the values they had when the program loaded).
+    ///
+    /// 2) Instance methods go a step further, by maintaining a record of the
+    /// current colors, so that the colors can progress through a range, without
+    /// reverting to the initial colors.
+    ///
+    /// For each overload of Console.Error.Write, there are corresponding static
+    /// and instance methods. The only difference in their signatures is that
+    /// these methods specify a foreground color and a background color,
+    /// followed by the same arguments that would apply to the corresponding
+    /// overload of the Console.Error.Write method.
+    /// </remarks>
+    public class ErrorMessagesInColor : WizardWrx.ApplicationHelpers.DLLServices.ErrorMessagesInColor
+    {
+        /// <summary>
+        /// Constructing an instance saves the current foreground and background
+        /// colors into two pairs of read only ConsoleColor properties. Methods
+        /// facilitate changing one or both colors, while retaining the original
+        /// colors in the other two ConsoleColor properties, which are never
+        /// changed after the class instance comes into being.
+        /// </summary>
+        /// <remarks>
+        /// This method is provided to facilitate construction of a List or
+        /// other sortable collection of ErrorMessagesInColor objects, and
+        /// allows for a future version of this class to be exposed to COM.
+        /// </remarks>
+        public ErrorMessagesInColor ( )
+            : base ( )
+        { }   // public ErrorMessagesInColor constructor (1 of 2)
+
+
+        /// <summary>
+        /// This constructor creates an instance with its foreground and
+        /// background colors properties set to the specified ConsoleColor
+        /// values, which ppresumably differ from the initial foreground and
+        /// background colors.
+        /// </summary>
+        /// <param name="pclrTextForeColor">
+        /// Specify the ConsoleColor property to use as the text (foreground)
+        /// color in generated messages.
+        /// </param>
+        /// <param name="pclrTextBackColor">
+        /// Specify the ConsoleColor property to use as the background color in
+        /// generated messages.
+        /// </param>
+        public ErrorMessagesInColor (
+            ConsoleColor pclrTextForeColor ,
+            ConsoleColor pclrTextBackColor )
+            : base (
+                pclrTextForeColor ,
+                pclrTextBackColor )
+        { }   // public ErrorMessagesInColor constructor (2 of 2)
+    }   // public class ErrorMessagesInColor
+}   // partial namespace WizardWrx.ConsoleAppAids

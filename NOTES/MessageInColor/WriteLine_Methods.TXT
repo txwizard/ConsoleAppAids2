@@ -1,0 +1,514 @@
+        /// <summary>
+        /// Write the string representation of a bool (Boolean) variable.
+        /// </summary>
+        /// <param name="pclrForeColor">
+        /// Specify the ConsoleColor to use for the foreground (text).
+        /// </param>
+        /// <param name="pclrBackColor">
+        /// Specify the ConsoleColor to use for the background.
+        /// </param>
+        /// <param name="value">
+        /// Specify the Boolean value to display.
+        /// </param>
+        public static void WriteLine (
+            ConsoleColor pclrForeColor ,
+            ConsoleColor pclrBackColor ,
+            bool value )
+        {
+            SetMessageColors ( pclrForeColor , pclrBackColor );
+            Console.Write ( value );
+            Console.ResetColor ( );
+            Console.WriteLine ( );
+        }   // public static void WriteLine (1 of 18)
+
+
+        /// <summary>
+        /// Write the string representation of a char (a Unicode character).
+        /// </summary>
+        /// <param name="pclrForeColor">
+        /// Specify the ConsoleColor to use for the foreground (text).
+        /// </param>
+        /// <param name="pclrBackColor">
+        /// Specify the ConsoleColor to use for the background.
+        /// </param>
+        /// <param name="value">
+        /// Specify the Unicode character to display.
+        /// </param>
+        public static void WriteLine (
+            ConsoleColor pclrForeColor ,
+            ConsoleColor pclrBackColor ,
+            char value )
+        {
+            SetMessageColors ( pclrForeColor , pclrBackColor );
+            Console.Write ( value );
+            Console.ResetColor ( );
+            Console.WriteLine ( );
+        }   // public static void WriteLine (2 of 18)
+
+
+        /// <summary>
+        /// Write the string representation of a character array.
+        /// </summary>
+        /// <param name="pclrForeColor">
+        /// Specify the ConsoleColor to use for the foreground (text).
+        /// </param>
+        /// <param name="pclrBackColor">
+        /// Specify the ConsoleColor to use for the background.
+        /// </param>
+        /// <param name="value">
+        /// Specify the array of Unicode characters to display.
+        /// </param>
+        public static void WriteLine (
+            ConsoleColor pclrForeColor ,
+            ConsoleColor pclrBackColor ,
+            char [ ] buffer )
+        {
+            SetMessageColors ( pclrForeColor , pclrBackColor );
+            Console.Write ( buffer );
+            Console.ResetColor ( );
+            Console.WriteLine ( );
+        }   // public static void WriteLine (3 of 18)
+
+
+        /// <summary>
+        /// Write the string representation of a decimal variable.
+        /// </summary>
+        /// <param name="pclrForeColor">
+        /// Specify the ConsoleColor to use for the foreground (text).
+        /// </param>
+        /// <param name="pclrBackColor">
+        /// Specify the ConsoleColor to use for the background.
+        /// </param>
+        /// <param name="value">
+        /// Specify the decimal value to display.
+        /// </param>
+        public static void WriteLine (
+            ConsoleColor pclrForeColor ,
+            ConsoleColor pclrBackColor ,
+            decimal value )
+        {
+            SetMessageColors ( pclrForeColor , pclrBackColor );
+            Console.Write ( value );
+            Console.ResetColor ( );
+            Console.WriteLine ( );
+        }   // public static void WriteLine (4 of 18)
+
+
+        /// <summary>
+        /// Write the string representation of a double precision variable.
+        /// </summary>
+        /// <param name="pclrForeColor">
+        /// Specify the ConsoleColor to use for the foreground (text).
+        /// </param>
+        /// <param name="pclrBackColor">
+        /// Specify the ConsoleColor to use for the background.
+        /// </param>
+        /// <param name="value">
+        /// Specify the double precision value to display.
+        /// </param>
+        public static void WriteLine (
+            ConsoleColor pclrForeColor ,
+            ConsoleColor pclrBackColor ,
+            double value )
+        {
+            SetMessageColors ( pclrForeColor , pclrBackColor );
+            Console.Write ( value );
+            Console.ResetColor ( );
+            Console.WriteLine ( );
+        }   // public static void WriteLine (5 of 18)
+
+
+        /// <summary>
+        /// Write the string representation of a floating point variable.
+        /// </summary>
+        /// <param name="pclrForeColor">
+        /// Specify the ConsoleColor to use for the foreground (text).
+        /// </param>
+        /// <param name="pclrBackColor">
+        /// Specify the ConsoleColor to use for the background.
+        /// </param>
+        /// <param name="value">
+        /// Specify the floating point value to display.
+        /// </param>
+        public static void WriteLine (
+            ConsoleColor pclrForeColor ,
+            ConsoleColor pclrBackColor ,
+            float value )
+        {
+            SetMessageColors ( pclrForeColor , pclrBackColor );
+            Console.Write ( value );
+            Console.ResetColor ( );
+            Console.WriteLine ( );
+        }   // public static void WriteLine (6 of 18)
+
+
+        /// <summary>
+        /// Write the string representation of an integer variable.
+        /// </summary>
+        /// <param name="pclrForeColor">
+        /// Specify the ConsoleColor to use for the foreground (text).
+        /// </param>
+        /// <param name="pclrBackColor">
+        /// Specify the ConsoleColor to use for the background.
+        /// </param>
+        /// <param name="value">
+        /// Specify the integer value to display.
+        /// </param>
+        public static void WriteLine (
+            ConsoleColor pclrForeColor ,
+            ConsoleColor pclrBackColor ,
+            int value )
+        {
+            SetMessageColors ( pclrForeColor , pclrBackColor );
+            Console.Write ( value );
+            Console.ResetColor ( );
+            Console.WriteLine ( );
+        }   // public static void WriteLine (7 of 18)
+
+
+        /// <summary>
+        /// Write the string representation of a long integer variable.
+        /// </summary>
+        /// <param name="pclrForeColor">
+        /// Specify the ConsoleColor to use for the foreground (text).
+        /// </param>
+        /// <param name="pclrBackColor">
+        /// Specify the ConsoleColor to use for the background.
+        /// </param>
+        /// <param name="value">
+        /// Specify the long integer value to display.
+        /// </param>
+        public static void WriteLine (
+            ConsoleColor pclrForeColor ,
+            ConsoleColor pclrBackColor ,
+            long value )
+        {
+            SetMessageColors ( pclrForeColor , pclrBackColor );
+            Console.Write ( value );
+            Console.ResetColor ( );
+            Console.WriteLine ( );
+        }   // public static void WriteLine (8 of 18)
+
+
+        /// <summary>
+        /// Write the string representation of a generic Object variable.
+        /// </summary>
+        /// <param name="pclrForeColor">
+        /// Specify the ConsoleColor to use for the foreground (text).
+        /// </param>
+        /// <param name="pclrBackColor">
+        /// Specify the ConsoleColor to use for the background.
+        /// </param>
+        /// <param name="value">
+        /// Specify the object value to display.
+        /// </param>
+        public static void WriteLine (
+            ConsoleColor pclrForeColor ,
+            ConsoleColor pclrBackColor ,
+            object value )
+        {
+            SetMessageColors ( pclrForeColor , pclrBackColor );
+            Console.Write ( value );
+            Console.ResetColor ( );
+            Console.WriteLine ( );
+        }   // public static void WriteLine (9 of 18)
+
+
+        /// <summary>
+        /// Write a string variable.
+        /// </summary>
+        /// <param name="pclrForeColor">
+        /// Specify the ConsoleColor to use for the foreground (text).
+        /// </param>
+        /// <param name="pclrBackColor">
+        /// Specify the ConsoleColor to use for the background.
+        /// </param>
+        /// <param name="value">
+        /// Specify the string value to display.
+        /// </param>
+        public static void WriteLine (
+            ConsoleColor pclrForeColor ,
+            ConsoleColor pclrBackColor ,
+            string value )
+        {
+            SetMessageColors ( pclrForeColor , pclrBackColor );
+            Console.Write ( value );
+            Console.ResetColor ( );
+            Console.WriteLine ( );
+        }   // public static void WriteLine (10 of 18)
+
+
+        /// <summary>
+        /// Write the string representation of a uint (unsigned integer)
+        /// variable.
+        /// </summary>
+        /// <param name="pclrForeColor">
+        /// Specify the ConsoleColor to use for the foreground (text).
+        /// </param>
+        /// <param name="pclrBackColor">
+        /// Specify the ConsoleColor to use for the background.
+        /// </param>
+        /// <param name="value">
+        /// Specify the uint (unsigned integer) value to display.
+        /// </param>
+        public static void WriteLine (
+            ConsoleColor pclrForeColor ,
+            ConsoleColor pclrBackColor ,
+            uint value )
+        {
+            SetMessageColors ( pclrForeColor , pclrBackColor );
+            Console.Write ( value );
+            Console.ResetColor ( );
+            Console.WriteLine ( );
+        }   // public static void WriteLine (11 of 18)
+
+
+        /// <summary>
+        /// Write the string representation of a ulong (unsigned long integer)
+        /// variable.
+        /// </summary>
+        /// <param name="pclrForeColor">
+        /// Specify the ConsoleColor to use for the foreground (text).
+        /// </param>
+        /// <param name="pclrBackColor">
+        /// Specify the ConsoleColor to use for the background.
+        /// </param>
+        /// <param name="value">
+        /// Specify the ulong (unsigned long integer) value to display.
+        /// </param>
+        public static void WriteLine (
+            ConsoleColor pclrForeColor ,
+            ConsoleColor pclrBackColor ,
+            ulong value )
+        {
+            SetMessageColors ( pclrForeColor , pclrBackColor );
+            Console.Write ( value );
+            Console.ResetColor ( );
+            Console.WriteLine ( );
+        }   // public static void WriteLine (12 of 18)
+
+
+        /// <summary>
+        /// Write a formatted message that includes the string representation of
+        /// an generic object variable.
+        /// </summary>
+        /// <param name="pclrForeColor">
+        /// Specify the ConsoleColor to use for the foreground (text).
+        /// </param>
+        /// <param name="pclrBackColor">
+        /// Specify the ConsoleColor to use for the background.
+        /// </param>
+        /// <param name="format">
+        /// Use this string as the message template, which may include at most
+        /// one substitution token.
+        /// </param>
+        /// <param name="arg0">
+        /// Replace the substition token with the string representation of this
+        /// generic object.
+        /// </param>
+        public static void WriteLine (
+            ConsoleColor pclrForeColor ,
+            ConsoleColor pclrBackColor ,
+            string format ,
+            object arg0 )
+        {
+            SetMessageColors ( pclrForeColor , pclrBackColor );
+            Console.Write ( format , arg0 );
+            Console.ResetColor ( );
+            Console.WriteLine ( );
+        }   // public static void WriteLine (13 of 18)
+
+
+        /// <summary>
+        /// Write a formatted message that includes the string representation of
+        /// an generic object variable.
+        /// </summary>
+        /// <param name="pclrForeColor">
+        /// Specify the ConsoleColor to use for the foreground (text).
+        /// </param>
+        /// <param name="pclrBackColor">
+        /// Specify the ConsoleColor to use for the background.
+        /// </param>
+        /// <param name="format">
+        /// Use this string as the message template, which may contains 
+        /// substitution tokens for each object in an array of generic Object
+        /// variables.
+        /// </param>
+        /// <param name="arg">
+        /// Substitute elements from this array of generic Object variables into
+        /// the format string, replacing tokens with the element whose subscript
+        /// is the number within its brackets.
+        /// </param>
+        public static void WriteLine (
+            ConsoleColor pclrForeColor ,
+            ConsoleColor pclrBackColor ,
+            string format ,
+            params object [ ] arg )
+        {
+            SetMessageColors ( pclrForeColor , pclrBackColor );
+            Console.Write ( format , arg );
+            Console.ResetColor ( );
+            Console.WriteLine ( );
+        }   // public static void WriteLine (14 of 18)
+
+
+        /// <summary>
+        /// Write a formatted message that includes a range of characters taken
+        /// from an array of Unicode characters.
+        /// </summary>
+        /// <param name="pclrForeColor">
+        /// Specify the ConsoleColor to use for the foreground (text).
+        /// </param>
+        /// <param name="pclrBackColor">
+        /// Specify the ConsoleColor to use for the background.
+        /// </param>
+        /// <param name="format">
+        /// Use this string as the message template, which may contains 
+        /// substitution tokens for count number of characters.
+        /// </param>
+        /// <param name="buffer">
+        /// Extract characters from this array of Unicode characters.
+        /// </param>
+        /// <param name="index">
+        /// Subscript of character to substitute for token {0} in format.
+        /// </param>
+        /// <param name="count">
+        /// Number of characters from buffer to substitute into string, which
+        /// must contain at least count - 1 substitution tokens.
+        /// </param>
+        public static void WriteLine (
+            ConsoleColor pclrForeColor ,
+            ConsoleColor pclrBackColor ,
+            string format ,
+            char [ ] buffer ,
+            int index ,
+            int count )
+        {
+            SetMessageColors ( pclrForeColor , pclrBackColor );
+            Console.Write ( buffer , index , count );
+            Console.ResetColor ( );
+            Console.WriteLine ( );
+        }   // public static void WriteLine (15 of 18)
+
+
+        /// <summary>
+        /// Write a formatted message that includes up to two substitution
+        /// tokens.
+        /// </summary>
+        /// <param name="pclrForeColor">
+        /// Specify the ConsoleColor to use for the foreground (text).
+        /// </param>
+        /// <param name="pclrBackColor">
+        /// Specify the ConsoleColor to use for the background.
+        /// </param>
+        /// <param name="format">
+        /// Use this string as the message template, which may contain up to two
+        /// substition tokens, {0} and {1}.
+        /// </param>
+        /// <param name="arg0">
+        /// The default string representation of this generic Object variable is
+        /// substituted into format for token {0}.
+        /// </param>
+        /// <param name="arg1">
+        /// The default string representation of this generic Object variable is
+        /// substituted into format for token {1}.
+        /// </param>
+        public static void WriteLine (
+            ConsoleColor pclrForeColor ,
+            ConsoleColor pclrBackColor ,
+            string format ,
+            object arg0 ,
+            object arg1 )
+        {
+            SetMessageColors ( pclrForeColor , pclrBackColor );
+            Console.Write ( format , arg0 , arg1 );
+            Console.ResetColor ( );
+            Console.WriteLine ( );
+        }   // public static void WriteLine (16 of 18)
+
+
+        /// <summary>
+        /// Write a formatted message that includes up to three substitution
+        /// tokens.
+        /// </summary>
+        /// <param name="pclrForeColor">
+        /// Specify the ConsoleColor to use for the foreground (text).
+        /// </param>
+        /// <param name="pclrBackColor">
+        /// Specify the ConsoleColor to use for the background.
+        /// </param>
+        /// <param name="format">
+        /// Use this string as the message template, which may contain up to 3
+        /// substition tokens, {0}, {1}, and {2}.
+        /// </param>
+        /// <param name="arg0">
+        /// The default string representation of this generic Object variable is
+        /// substituted into format for token {0}.
+        /// </param>
+        /// <param name="arg1">
+        /// The default string representation of this generic Object variable is
+        /// substituted into format for token {1}.
+        /// </param>
+        /// <param name="arg2">
+        /// The default string representation of this generic Object variable is
+        /// substituted into format for token {2}.
+        /// </param>
+        public static void WriteLine (
+            ConsoleColor pclrForeColor ,
+            ConsoleColor pclrBackColor ,
+            string format ,
+            object arg0 ,
+            object arg1 ,
+            object arg2 )
+        {
+            SetMessageColors ( pclrForeColor , pclrBackColor );
+            Console.Write ( format , arg0 , arg1 , arg2 );
+            Console.ResetColor ( );
+            Console.WriteLine ( );
+        }   // public static void WriteLine (17 of 18)
+
+
+        /// <summary>
+        /// Write a formatted message that includes up to four substitution
+        /// tokens.
+        /// </summary>
+        /// <param name="pclrForeColor">
+        /// Specify the ConsoleColor to use for the foreground (text).
+        /// </param>
+        /// <param name="pclrBackColor">
+        /// Specify the ConsoleColor to use for the background.
+        /// </param>
+        /// <param name="format">
+        /// Use this string as the message template, which may contain up to 4
+        /// substition tokens, {0}, {1}, {2}, and {3}.
+        /// </param>
+        /// <param name="arg0">
+        /// The default string representation of this generic Object variable is
+        /// substituted into format for token {0}.
+        /// </param>
+        /// <param name="arg1">
+        /// The default string representation of this generic Object variable is
+        /// substituted into format for token {1}.
+        /// </param>
+        /// <param name="arg2">
+        /// The default string representation of this generic Object variable is
+        /// substituted into format for token {2}.
+        /// </param>
+        /// <param name="arg3">
+        /// The default string representation of this generic Object variable is
+        /// substituted into format for token {3}.
+        /// </param>
+        public static void WriteLine (
+            ConsoleColor pclrForeColor ,
+            ConsoleColor pclrBackColor ,
+            string format ,
+            object arg0 ,
+            object arg1 ,
+            object arg2 ,
+            object arg3 )
+        {
+            SetMessageColors ( pclrForeColor , pclrBackColor );
+            Console.Write ( format , arg0 , arg1 , arg2 , arg3 );
+            Console.ResetColor ( );
+            Console.WriteLine ( );
+        }   // public static void WriteLine (18 of 18)
