@@ -179,7 +179,7 @@
     <comment>TimedWait: default countdown progress message</comment>
   </data>
   <data name="TIMEDWAIT_DONE_EARLY_MSG_TPL" xml:space="preserve">
-    <value>{0} NOW, after pausing for {1} of {2} programmed secods</value>
+    <value>{0} NOW, after pausing for {1} of {2} programmed seconds</value>
     <comment>TimedWait: early countdown exit message</comment>
   </data>
   <data name="TIMEDWAIT_DONE_MSG_TPL" xml:space="preserve">

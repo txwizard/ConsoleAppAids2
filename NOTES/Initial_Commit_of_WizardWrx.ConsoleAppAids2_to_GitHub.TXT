@@ -1,0 +1,370 @@
+             Initial Commit of WizardWrx.ConsoleAppAids2 to GitHub
+
+================================================================================
+2016-06-10 00:41:16
+================================================================================
+             
+DAVE@ENIGMA MINGW64 ~ (master)
+$ cd "C:\Users\DAVE\Documents\Visual Studio 2013\Projects\WizardWrx_Libs\ConsoleAppAids2"
+
+DAVE@ENIGMA MINGW64 ~/Documents/Visual Studio 2013/Projects/WizardWrx_Libs/ConsoleAppAids2 (master)
+$ git init
+Initialized empty Git repository in C:/Users/DAVE/Documents/Visual Studio 2013/Projects/WizardWrx_Libs/ConsoleAppAids2/.git/
+
+DAVE@ENIGMA MINGW64 ~/Documents/Visual Studio 2013/Projects/WizardWrx_Libs/ConsoleAppAids2 (master)
+$ git add *
+warning: LF will be replaced by CRLF in NOTES/Test_Data/TestStand_FixedWriter_STDOUT_20150608_014206.LOG.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in NOTES/Test_Data/TestStand_FixedWriter_STDOUT_20150608_021644.LOG.
+The file will have its original line endings in your working directory.
+
+DAVE@ENIGMA MINGW64 ~/Documents/Visual Studio 2013/Projects/WizardWrx_Libs/ConsoleAppAids2 (master)
+$ git commit -m "Baseline"
+[master (root-commit) bb7a75d] Baseline
+warning: LF will be replaced by CRLF in NOTES/Test_Data/TestStand_FixedWriter_STDOUT_20150608_014206.LOG.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in NOTES/Test_Data/TestStand_FixedWriter_STDOUT_20150608_021644.LOG.
+The file will have its original line endings in your working directory.
+ 325 files changed, 259183 insertions(+)
+ create mode 100644 ConsoleAppAids2.SLN
+ create mode 100644 ConsoleAppAids2.v12.suo
+ create mode 100644 ConsoleAppAids2/BuildHistory.LOG
+ create mode 100644 ConsoleAppAids2/ConsoleAppAids.suo
+ create mode 100644 ConsoleAppAids2/ConsoleAppAids2.csproj
+ create mode 100644 ConsoleAppAids2/ConsoleAppStateManager.cs
+ create mode 100644 ConsoleAppAids2/DisplayAids.CS
+ create mode 100644 ConsoleAppAids2/FixedConsoleWriter.cs
+ create mode 100644 ConsoleAppAids2/Properties/AssemblyInfo.cs
+ create mode 100644 ConsoleAppAids2/Properties/Resources.Designer.cs
+ create mode 100644 ConsoleAppAids2/Properties/Resources.resx
+ create mode 100644 ConsoleAppAids2/WizardWrx.DLLServices2.dll.config
+ create mode 100644 ConsoleAppAids2/bin/Debug/Newtonsoft.Json.dll
+ create mode 100644 ConsoleAppAids2/bin/Debug/Newtonsoft.Json.xml
+ create mode 100644 ConsoleAppAids2/bin/Debug/P6CUtilLib1.dll
+ create mode 100644 ConsoleAppAids2/bin/Debug/WizardWrx.BitMath.dll
+ create mode 100644 ConsoleAppAids2/bin/Debug/WizardWrx.BitMath.pdb
+ create mode 100644 ConsoleAppAids2/bin/Debug/WizardWrx.BitMath.xml
+ create mode 100644 ConsoleAppAids2/bin/Debug/WizardWrx.ConsoleAppAids2.XML
+ create mode 100644 ConsoleAppAids2/bin/Debug/WizardWrx.ConsoleAppAids2.dll
+ create mode 100644 ConsoleAppAids2/bin/Debug/WizardWrx.ConsoleAppAids2.pdb
+ create mode 100644 ConsoleAppAids2/bin/Debug/WizardWrx.DLLServices2.dll
+ create mode 100644 ConsoleAppAids2/bin/Debug/WizardWrx.DLLServices2.dll.config
+ create mode 100644 ConsoleAppAids2/bin/Debug/WizardWrx.DLLServices2.pdb
+ create mode 100644 ConsoleAppAids2/bin/Debug/WizardWrx.DLLServices2.xml
+ create mode 100644 ConsoleAppAids2/bin/Release/Newtonsoft.Json.dll
+ create mode 100644 ConsoleAppAids2/bin/Release/Newtonsoft.Json.xml
+ create mode 100644 ConsoleAppAids2/bin/Release/P6CUtilLib1.dll
+ create mode 100644 ConsoleAppAids2/bin/Release/WizardWrx.BitMath.dll
+ create mode 100644 ConsoleAppAids2/bin/Release/WizardWrx.BitMath.pdb
+ create mode 100644 ConsoleAppAids2/bin/Release/WizardWrx.BitMath.xml
+ create mode 100644 ConsoleAppAids2/bin/Release/WizardWrx.ConsoleAppAids2.dll
+ create mode 100644 ConsoleAppAids2/bin/Release/WizardWrx.ConsoleAppAids2.pdb
+ create mode 100644 ConsoleAppAids2/bin/Release/WizardWrx.ConsoleAppAids2.xml
+ create mode 100644 ConsoleAppAids2/bin/Release/WizardWrx.DLLServices2.dll
+ create mode 100644 ConsoleAppAids2/bin/Release/WizardWrx.DLLServices2.dll.config
+ create mode 100644 ConsoleAppAids2/bin/Release/WizardWrx.DLLServices2.pdb
+ create mode 100644 ConsoleAppAids2/bin/Release/WizardWrx.DLLServices2.xml
+ create mode 100644 ConsoleAppAids2/obj/Debug/ConsoleAppAids2.csproj.FileListAbsolute.txt
+ create mode 100644 ConsoleAppAids2/obj/Debug/ConsoleAppAids2.csproj.GenerateResource.Cache
+ create mode 100644 ConsoleAppAids2/obj/Debug/ConsoleAppAids2.csprojResolveAssemblyReference.cache
+ create mode 100644 ConsoleAppAids2/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+ create mode 100644 ConsoleAppAids2/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 ConsoleAppAids2/obj/Debug/TempPE/Properties.Resources.Designer.cs.dll
+ create mode 100644 ConsoleAppAids2/obj/Debug/WizardWrx.ConsoleAppAids2.dll
+ create mode 100644 ConsoleAppAids2/obj/Debug/WizardWrx.ConsoleAppAids2.pdb
+ create mode 100644 ConsoleAppAids2/obj/Debug/WizardWrx.Properties.Resources.resources
+ create mode 100644 ConsoleAppAids2/obj/Release/ConsoleAppAids2.csproj.FileListAbsolute.txt
+ create mode 100644 ConsoleAppAids2/obj/Release/ConsoleAppAids2.csproj.GenerateResource.Cache
+ create mode 100644 ConsoleAppAids2/obj/Release/ConsoleAppAids2.csprojResolveAssemblyReference.cache
+ create mode 100644 ConsoleAppAids2/obj/Release/DesignTimeResolveAssemblyReferences.cache
+ create mode 100644 ConsoleAppAids2/obj/Release/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 ConsoleAppAids2/obj/Release/TempPE/Properties.Resources.Designer.cs.dll
+ create mode 100644 ConsoleAppAids2/obj/Release/WizardWrx.ConsoleAppAids2.dll
+ create mode 100644 ConsoleAppAids2/obj/Release/WizardWrx.ConsoleAppAids2.pdb
+ create mode 100644 ConsoleAppAids2/obj/Release/WizardWrx.Properties.Resources.resources
+ create mode 100644 DAGDevTOOLS.ZIP
+ create mode 100644 EOJTEST/BuildHistory.LOG
+ create mode 100644 EOJTEST/EOJTEST.csproj
+ create mode 100644 EOJTEST/Program.cs
+ create mode 100644 EOJTEST/Properties/AssemblyInfo.cs
+ create mode 100644 EOJTEST/WW_Icon1.ico
+ create mode 100644 EOJTEST/WizardWrx.DLLServices2.dll.config
+ create mode 100644 EOJTEST/bin/Debug/EOJTEST.exe
+ create mode 100644 EOJTEST/bin/Debug/EOJTEST.pdb
+ create mode 100644 EOJTEST/bin/Debug/Newtonsoft.Json.dll
+ create mode 100644 EOJTEST/bin/Debug/Newtonsoft.Json.xml
+ create mode 100644 EOJTEST/bin/Debug/P6CUtilLib1.dll
+ create mode 100644 EOJTEST/bin/Debug/WizardWrx.BitMath.dll
+ create mode 100644 EOJTEST/bin/Debug/WizardWrx.BitMath.pdb
+ create mode 100644 EOJTEST/bin/Debug/WizardWrx.BitMath.xml
+ create mode 100644 EOJTEST/bin/Debug/WizardWrx.ConsoleAppAids2.dll
+ create mode 100644 EOJTEST/bin/Debug/WizardWrx.ConsoleAppAids2.pdb
+ create mode 100644 EOJTEST/bin/Debug/WizardWrx.ConsoleAppAids2.xml
+ create mode 100644 EOJTEST/bin/Debug/WizardWrx.DLLServices2.dll
+ create mode 100644 EOJTEST/bin/Debug/WizardWrx.DLLServices2.dll.config
+ create mode 100644 EOJTEST/bin/Debug/WizardWrx.DLLServices2.pdb
+ create mode 100644 EOJTEST/bin/Debug/WizardWrx.DLLServices2.xml
+ create mode 100644 EOJTEST/bin/Release/EOJTEST.exe
+ create mode 100644 EOJTEST/bin/Release/EOJTEST.pdb
+ create mode 100644 EOJTEST/bin/Release/Newtonsoft.Json.dll
+ create mode 100644 EOJTEST/bin/Release/Newtonsoft.Json.xml
+ create mode 100644 EOJTEST/bin/Release/P6CUtilLib1.dll
+ create mode 100644 EOJTEST/bin/Release/WizardWrx.BitMath.dll
+ create mode 100644 EOJTEST/bin/Release/WizardWrx.BitMath.pdb
+ create mode 100644 EOJTEST/bin/Release/WizardWrx.BitMath.xml
+ create mode 100644 EOJTEST/bin/Release/WizardWrx.ConsoleAppAids2.dll
+ create mode 100644 EOJTEST/bin/Release/WizardWrx.ConsoleAppAids2.pdb
+ create mode 100644 EOJTEST/bin/Release/WizardWrx.ConsoleAppAids2.xml
+ create mode 100644 EOJTEST/bin/Release/WizardWrx.DLLServices2.dll
+ create mode 100644 EOJTEST/bin/Release/WizardWrx.DLLServices2.dll.config
+ create mode 100644 EOJTEST/bin/Release/WizardWrx.DLLServices2.pdb
+ create mode 100644 EOJTEST/bin/Release/WizardWrx.DLLServices2.xml
+ create mode 100644 EOJTEST/obj/x86/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 EOJTEST/obj/x86/Debug/EOJTEST.csproj.FileListAbsolute.txt
+ create mode 100644 EOJTEST/obj/x86/Debug/EOJTEST.csprojResolveAssemblyReference.cache
+ create mode 100644 EOJTEST/obj/x86/Debug/EOJTEST.exe
+ create mode 100644 EOJTEST/obj/x86/Debug/EOJTEST.pdb
+ create mode 100644 EOJTEST/obj/x86/Release/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 EOJTEST/obj/x86/Release/EOJTEST.csproj.FileListAbsolute.txt
+ create mode 100644 EOJTEST/obj/x86/Release/EOJTEST.csprojResolveAssemblyReference.cache
+ create mode 100644 EOJTEST/obj/x86/Release/EOJTEST.exe
+ create mode 100644 EOJTEST/obj/x86/Release/EOJTEST.pdb
+ create mode 100644 License.TXT
+ create mode 100644 NOTES/Backup of MessageInColor_and_FixedConsoleWriter_Classes.wbk
+ create mode 100644 NOTES/BaseStateManager_XREF.TXT
+ create mode 100644 NOTES/ConsoleOutputSpeedTest_Development_Notes.TXT.lnk
+ create mode 100644 NOTES/ConsoleOutputSpeedTest_Source_Code.lnk
+ create mode 100644 NOTES/DLLServices2_Development_Notes_6.0.TXT.lnk
+ create mode 100644 NOTES/DLLServices2_Project_Directory.lnk
+ create mode 100644 NOTES/Development_Notes_5.2.TXT
+ create mode 100644 NOTES/Development_Notes_5.3.TXT
+ create mode 100644 NOTES/Development_Notes_Version_3.6.TXT.lnk
+ create mode 100644 NOTES/Development_Notes_Version_5.0.TXT
+ create mode 100644 NOTES/Development_Notes_Version_5.1.TXT
+ create mode 100644 NOTES/Development_Notes_Version_5.4.TXT
+ create mode 100644 NOTES/Development_Notes_Version_6.0.TXT
+ create mode 100644 NOTES/Development_Notes_Version_6.1.TXT
+ create mode 100644 NOTES/Development_Notes_Version_6.3(0).TXT
+ create mode 100644 NOTES/Development_Notes_Version_6.3(1).TXT
+ create mode 100644 NOTES/Development_Notes_Version_6.3(2).TXT
+ create mode 100644 NOTES/Development_Notes_Version_6.3(3).TXT
+ create mode 100644 NOTES/Development_Notes_Version_6.3.TXT
+ create mode 100644 NOTES/Development_Notes_Version_6.3.TXT.bak
+ create mode 100644 NOTES/Development_Worksheets.XLSX.lnk
+ create mode 100644 NOTES/Error_Messages_in_Living_Color.DOCX
+ create mode 100644 NOTES/Errors_to_STDERR.DOCX
+ create mode 100644 NOTES/Exception_Reporting_Rationalization.XLSX
+ create mode 100644 NOTES/FixedConsoleWriter/Composite_Formatting.url
+ create mode 100644 NOTES/FixedConsoleWriter/FixedConsoleWriter.XLSX.lnk
+ create mode 100644 NOTES/FixedConsoleWriter/FixedConsoleWriter.cs.lnk
+ create mode 100644 NOTES/FixedConsoleWriter/Integration_Notes.TXT
+ create mode 100644 NOTES/FixedConsoleWriter/Program.cs.lnk
+ create mode 100644 NOTES/FixedConsoleWriter/Testing_Journal.DOCX.lnk
+ create mode 100644 NOTES/FixedConsoleWriter/TimedHalt_Tests.TXT.lnk
+ create mode 100644 NOTES/HardCodedStringConversions.XLSX
+ create mode 100644 NOTES/InheritanceExperiments.ZIP.lnk
+ create mode 100644 NOTES/Install_ApplicationHelpers_CMD.ZIPX
+ create mode 100644 NOTES/MessageInColor/ConsoleColors_Reference_Lists.XLSX.lnk
+ create mode 100644 NOTES/MessageInColor/Demonstration_Screens.DOCX
+ create mode 100644 NOTES/MessageInColor/Demonstration_Screens_2.DOCX
+ create mode 100644 NOTES/MessageInColor/Demonstration_Version 3.6.197.29569.DOCX
+ create mode 100644 NOTES/MessageInColor/Demonstration_Version 3.6.197.29569._Printing.PDF
+ create mode 100644 NOTES/MessageInColor/Demonstration_Version 3.6.197.29569._Standard.PDF
+ create mode 100644 NOTES/MessageInColor/Demonstration_Version 3.6.197.29569._Web.PDF
+ create mode 100644 NOTES/MessageInColor/Development_Notes_Version_3.2.TXT
+ create mode 100644 NOTES/MessageInColor/Development_Notes_Version_3.3.TXT
+ create mode 100644 NOTES/MessageInColor/Development_Notes_Version_3.4.TXT
+ create mode 100644 NOTES/MessageInColor/Development_Notes_Version_3.6.TXT
+ create mode 100644 NOTES/MessageInColor/ErrorMessagesInColor.cs.TXT
+ create mode 100644 NOTES/MessageInColor/ExerciseColorWrite.TXT
+ create mode 100644 NOTES/MessageInColor/ExerciseColorWriteLine.TXT
+ create mode 100644 NOTES/MessageInColor/HCU_Software_NicoMak.REG.lnk
+ create mode 100644 NOTES/MessageInColor/HKLM_SOFTWARE_NicoMakComputing.REG.lnk
+ create mode 100644 NOTES/MessageInColor/InstanceMethodTests.TXT
+ create mode 100644 NOTES/MessageInColor/STDERR_Tests_Set_1.ZIPX
+ create mode 100644 NOTES/MessageInColor/StaticMethodTests.TXT
+ create mode 100644 NOTES/MessageInColor/Technical_Documentation_Worksheets.XLSX
+ create mode 100644 NOTES/MessageInColor/WinZip_Command_Line_AddOn_Requirements.PDF.lnk
+ create mode 100644 NOTES/MessageInColor/WinZip_Installation_Directory.lnk
+ create mode 100644 NOTES/MessageInColor/WriteLineInColor_Methods.TXT
+ create mode 100644 NOTES/MessageInColor/WriteLine_Methods.TXT
+ create mode 100644 NOTES/MessageInColor/Write_Methods.TXT
+ create mode 100644 NOTES/MessageInColor_and_FixedConsoleWriter_Classes.DOCX
+ create mode 100644 NOTES/NBReplT_Source_Code_Tree_20140531_130559.CSV
+ create mode 100644 NOTES/OutToFile_STDERR_10000_20150608_010830.TXT.lnk
+ create mode 100644 NOTES/Symbol_Server_Setup_Walkthrough.url
+ create mode 100644 NOTES/Test_Data/ApplicationEvents_WizardWrx_ENIGMA_20151115_093739.TXT
+ create mode 100644 NOTES/Test_Data/ApplicationEvents_WizardWrx_ENIGMA_20151116_214129.TXT
+ create mode 100644 NOTES/Test_Data/ApplicationEvents_WizardWrx_ENIGMA_20151116_232917.TXT
+ create mode 100644 NOTES/Test_Data/Application_ENIGMA_20150618_075217.TXT
+ create mode 100644 NOTES/Test_Data/Application_ENIGMA_20150619_011009.TXT
+ create mode 100644 NOTES/Test_Data/ConsoleAppAidsRedirected_20151114_202704.LOG
+ create mode 100644 NOTES/Test_Data/ConsoleAppAidsRedirected_20151115_112228.LOG
+ create mode 100644 NOTES/Test_Data/ConsoleAppAidsRedirected_20151122_001105.LOG
+ create mode 100644 NOTES/Test_Data/ConsoleAppAidsRedirected_20151122_001853.LOG
+ create mode 100644 NOTES/Test_Data/ConsoleAppAidsRedirected_20151122_011845.LOG
+ create mode 100644 NOTES/Test_Data/ConsoleAppAidsRedirected_20160609_021903.LOG
+ create mode 100644 NOTES/Test_Data/ConsoleAppAidsRedirected_20160609_023101.LOG
+ create mode 100644 NOTES/Test_Data/ConsoleAppAidsRedirected_20160609_031458.LOG
+ create mode 100644 NOTES/Test_Data/ConsoleAppAidsRedirected_20160609_121417.LOG
+ create mode 100644 NOTES/Test_Data/ConsoleAppAidsRedirected_20160609_121927.LOG
+ create mode 100644 NOTES/Test_Data/ConsoleAppAidsRedirected_20160609_124007.LOG
+ create mode 100644 NOTES/Test_Data/ConsoleAppAidsRedirected_20160609_130441.LOG
+ create mode 100644 NOTES/Test_Data/ConsoleAppAidsRedirected_20160609_200045.LOG
+ create mode 100644 NOTES/Test_Data/ConsoleAppAidsRedirected_20160609_202731.LOG
+ create mode 100644 NOTES/Test_Data/ConsoleAppAidsRedirected_20160609_211543.LOG
+ create mode 100644 NOTES/Test_Data/ConsoleAppAidsRedirected_20160609_212641.LOG
+ create mode 100644 NOTES/Test_Data/ConsoleAppAidsRedirected_20160609_215125.LOG
+ create mode 100644 NOTES/Test_Data/ConsoleAppAidsRedirected_20160609_220027.LOG
+ create mode 100644 NOTES/Test_Data/ConsoleAppAidsRedirected_20160609_222219.LOG
+ create mode 100644 NOTES/Test_Data/ConsoleAppAidsRedirected_20160609_224851.LOG
+ create mode 100644 NOTES/Test_Data/ConsoleAppAidsRedirected_20160609_231139.LOG
+ create mode 100644 NOTES/Test_Data/ConsoleAppAidsRedirected_20160609_231747.LOG
+ create mode 100644 NOTES/Test_Data/ConsoleAppAidsRedirected_20160609_232419.LOG
+ create mode 100644 NOTES/Test_Data/ConsoleAppAidsRedirected_20160609_233417.LOG
+ create mode 100644 NOTES/Test_Data/ExportFromEventLog1Source.CMD.lnk
+ create mode 100644 NOTES/Test_Data/TestStandTrace_20150617_234803.LOG
+ create mode 100644 NOTES/Test_Data/TestStandTrace_20151115_110710.LOG
+ create mode 100644 NOTES/Test_Data/TestStandTrace_20151116_231816.LOG
+ create mode 100644 NOTES/Test_Data/TestStandTrace_20151122_015805.LOG
+ create mode 100644 NOTES/Test_Data/TestStandTrace_20160520_133847.LOG
+ create mode 100644 NOTES/Test_Data/TestStand_FixedWriter_STDOUT_20150608_014206.LOG
+ create mode 100644 NOTES/Test_Data/TestStand_FixedWriter_STDOUT_20150608_021644.LOG
+ create mode 100644 NOTES/Test_Data/TestStand_STDOUT_20150617_225426.LOG
+ create mode 100644 NOTES/Test_Data/TestStand_STDOUT_20150617_234802.LOG
+ create mode 100644 NOTES/Test_Data/TimedWaitTests.TXT
+ create mode 100644 NOTES/Test_Data/TimedWaitTests_20140322_003510.TXT
+ create mode 100644 NOTES/Test_Data/TimedWaitTests_InterruptCriterion.TXT
+ create mode 100644 NOTES/Test_Data/TimedWaitTests_Regression.TXT
+ create mode 100644 NOTES/Test_Run_without_Command_Line_Arguments.DOCX
+ create mode 100644 NOTES/Test_Run_without_Command_Line_Arguments.PDF
+ create mode 100644 NOTES/Testing_Worksheets_Version_6.0.XLSX
+ create mode 100644 NOTES/Timed_Halt_with_Debugger_Absent.DOCX
+ create mode 100644 NOTES/WhyIMarkFinishedWordAsReadOnly.TXT
+ create mode 100644 NOTES/WizardWrx.ConsoleAppAids_TestStand.DOCX
+ create mode 100644 NOTES/WizardWrx.ConsoleAppAids_TestStand_5.5.DOCX
+ create mode 100644 NOTES/WizardWrx.ConsoleAppAids_TestStand_6.0.DOCX
+ create mode 100644 NOTES/XREF_AppExceptionLogger_20140518_203819.TXT
+ create mode 100644 NOTES/XREF_ExceptionReporting_20140518_150702.TXT
+ create mode 100644 NOTES/XREF_ThreadSafeExceptionReporting_20140518_194509.TXT
+ create mode 100644 README.TXT
+ create mode 100644 ReadMe_External_Tools.TXT
+ create mode 100644 TestStand/BuildHistory.LOG
+ create mode 100644 TestStand/Program.cs
+ create mode 100644 TestStand/Properties/AssemblyInfo.cs
+ create mode 100644 TestStand/Properties/Resources.Designer.cs
+ create mode 100644 TestStand/Properties/Resources.resx
+ create mode 100644 TestStand/Properties/Settings.Designer.cs
+ create mode 100644 TestStand/Properties/Settings.settings
+ create mode 100644 TestStand/TestStand.csproj
+ create mode 100644 TestStand/TestStand.csproj.user
+ create mode 100644 TestStand/TimedWaitTestCase.cs
+ create mode 100644 TestStand/WW_Icon1.ico
+ create mode 100644 TestStand/WizardWrx.DLLServices2.dll.config
+ create mode 100644 TestStand/app.config
+ create mode 100644 TestStand/bin/Debug/Newtonsoft.Json.dll
+ create mode 100644 TestStand/bin/Debug/Newtonsoft.Json.xml
+ create mode 100644 TestStand/bin/Debug/P6CUtilLib1.dll
+ create mode 100644 TestStand/bin/Debug/TestStand.exe
+ create mode 100644 TestStand/bin/Debug/TestStand.exe.config
+ create mode 100644 TestStand/bin/Debug/TestStand.pdb
+ create mode 100644 TestStand/bin/Debug/TestStand.v12.suo
+ create mode 100644 TestStand/bin/Debug/TestStand.vshost.exe
+ create mode 100644 TestStand/bin/Debug/TestStand.vshost.exe.config
+ create mode 100644 TestStand/bin/Debug/TestStand.vshost.exe.manifest
+ create mode 100644 TestStand/bin/Debug/WizardWrx.AssemblyPropertyViewer.dll
+ create mode 100644 TestStand/bin/Debug/WizardWrx.AssemblyPropertyViewer.pdb
+ create mode 100644 TestStand/bin/Debug/WizardWrx.AssemblyPropertyViewer.xml
+ create mode 100644 TestStand/bin/Debug/WizardWrx.BitMath.dll
+ create mode 100644 TestStand/bin/Debug/WizardWrx.BitMath.pdb
+ create mode 100644 TestStand/bin/Debug/WizardWrx.BitMath.xml
+ create mode 100644 TestStand/bin/Debug/WizardWrx.ConsoleAppAids2.dll
+ create mode 100644 TestStand/bin/Debug/WizardWrx.ConsoleAppAids2.pdb
+ create mode 100644 TestStand/bin/Debug/WizardWrx.ConsoleAppAids2.xml
+ create mode 100644 TestStand/bin/Debug/WizardWrx.DLLServices2.dll
+ create mode 100644 TestStand/bin/Debug/WizardWrx.DLLServices2.dll.config
+ create mode 100644 TestStand/bin/Debug/WizardWrx.DLLServices2.pdb
+ create mode 100644 TestStand/bin/Debug/WizardWrx.DLLServices2.xml
+ create mode 100644 TestStand/bin/Release/Newtonsoft.Json.dll
+ create mode 100644 TestStand/bin/Release/Newtonsoft.Json.xml
+ create mode 100644 TestStand/bin/Release/P6CUtilLib1.dll
+ create mode 100644 TestStand/bin/Release/TestStand.exe
+ create mode 100644 TestStand/bin/Release/TestStand.exe.config
+ create mode 100644 TestStand/bin/Release/TestStand.pdb
+ create mode 100644 TestStand/bin/Release/TestStand.vshost.exe
+ create mode 100644 TestStand/bin/Release/TestStand.vshost.exe.config
+ create mode 100644 TestStand/bin/Release/TestStand.vshost.exe.manifest
+ create mode 100644 TestStand/bin/Release/WizardWrx.AssemblyPropertyViewer.dll
+ create mode 100644 TestStand/bin/Release/WizardWrx.AssemblyPropertyViewer.pdb
+ create mode 100644 TestStand/bin/Release/WizardWrx.AssemblyPropertyViewer.xml
+ create mode 100644 TestStand/bin/Release/WizardWrx.BitMath.dll
+ create mode 100644 TestStand/bin/Release/WizardWrx.BitMath.pdb
+ create mode 100644 TestStand/bin/Release/WizardWrx.BitMath.xml
+ create mode 100644 TestStand/bin/Release/WizardWrx.ConsoleAppAids2.dll
+ create mode 100644 TestStand/bin/Release/WizardWrx.ConsoleAppAids2.pdb
+ create mode 100644 TestStand/bin/Release/WizardWrx.ConsoleAppAids2.xml
+ create mode 100644 TestStand/bin/Release/WizardWrx.DLLServices2.dll
+ create mode 100644 TestStand/bin/Release/WizardWrx.DLLServices2.dll.config
+ create mode 100644 TestStand/bin/Release/WizardWrx.DLLServices2.pdb
+ create mode 100644 TestStand/bin/Release/WizardWrx.DLLServices2.xml
+ create mode 100644 TestStand/obj/x86/Debug/DesignTimeResolveAssemblyReferences.cache
+ create mode 100644 TestStand/obj/x86/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 TestStand/obj/x86/Debug/TempPE/Properties.Resources.Designer.cs.dll
+ create mode 100644 TestStand/obj/x86/Debug/TestStand.Properties.Resources.resources
+ create mode 100644 TestStand/obj/x86/Debug/TestStand.csproj.FileListAbsolute.txt
+ create mode 100644 TestStand/obj/x86/Debug/TestStand.csproj.GenerateResource.Cache
+ create mode 100644 TestStand/obj/x86/Debug/TestStand.csprojResolveAssemblyReference.cache
+ create mode 100644 TestStand/obj/x86/Debug/TestStand.exe
+ create mode 100644 TestStand/obj/x86/Debug/TestStand.pdb
+ create mode 100644 TestStand/obj/x86/Release/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 TestStand/obj/x86/Release/TempPE/Properties.Resources.Designer.cs.dll
+ create mode 100644 TestStand/obj/x86/Release/TestStand.Properties.Resources.resources
+ create mode 100644 TestStand/obj/x86/Release/TestStand.csproj.FileListAbsolute.txt
+ create mode 100644 TestStand/obj/x86/Release/TestStand.csproj.GenerateResource.Cache
+ create mode 100644 TestStand/obj/x86/Release/TestStand.csprojResolveAssemblyReference.cache
+ create mode 100644 TestStand/obj/x86/Release/TestStand.exe
+ create mode 100644 TestStand/obj/x86/Release/TestStand.pdb
+ create mode 100644 _archive/Archive_ConsoleAppAids.CMD
+ create mode 100644 _archive/Archive_ConsoleAppAids_1.0.5.1037.LOG
+ create mode 100644 _archive/Archive_ConsoleAppAids_3.1.7.40000.LOG
+ create mode 100644 _archive/Archive_ConsoleAppAids_3.2.15.3322.LOG
+ create mode 100644 _archive/Archive_ConsoleAppAids_3.2.30.6620.LOG
+ create mode 100644 _archive/Archive_ConsoleAppAids_3.3.64.17486.LOG
+ create mode 100644 _archive/Archive_ConsoleAppAids_3.3.78.26002.LOG
+ create mode 100644 _archive/Archive_ConsoleAppAids_3.4.82.40346.LOG
+ create mode 100644 _archive/Archive_ConsoleAppAids_3.4.83.41941.LOG
+ create mode 100644 _archive/Archive_ConsoleAppAids_3.5.170.42088.LOG
+ create mode 100644 _archive/Archive_ConsoleAppAids_3.5.172.34096.LOG
+ create mode 100644 _archive/Archive_ConsoleAppAids_3.6.206.33435.LOG
+ create mode 100644 _archive/Archive_ConsoleAppAids_3.6.218.41941.LOG
+ create mode 100644 _archive/Archive_ConsoleAppAids_5.0.242.21770.LOG
+ create mode 100644 _archive/Archive_ConsoleAppAids_5.1.263.38897.LOG
+ create mode 100644 _archive/Archive_ConsoleAppAids_5.1.5.2.264.2111.LOG
+ create mode 100644 _archive/Archive_ConsoleAppAids_5.3.268.33561.LOG
+ create mode 100644 _archive/Archive_ConsoleAppAids_5.3.271.35034.LOG
+ create mode 100644 _archive/TestStand_AppConfig_Edits_20150617_232233.ZIPX
+ create mode 100644 _archive/WizardWrx.ConsoleAppAids2_5.4.280.39503.7z.lnk
+ create mode 100644 _archive/WizardWrx.ConsoleAppAids2_5_5_315_2564.ZIPX.lnk
+ create mode 100644 scripts/Activate_InterruptCriterion.CMD
+ create mode 100644 scripts/Activate_Regressions.CMD
+ create mode 100644 scripts/ConsoleAppAidsRedirected.CMD
+ create mode 100644 scripts/EndOfJobTestScript.CMD
+ create mode 100644 scripts/LockVisualStudio20xxProperties.CMD.lnk
+ create mode 100644 scripts/UnlockVisualStudio20xxProperties.CMD.lnk
+
+DAVE@ENIGMA MINGW64 ~/Documents/Visual Studio 2013/Projects/WizardWrx_Libs/ConsoleAppAids2 (master)
+$ git remote add origin https://github.com/txwizard/ConsoleAppAids2.git
+
+DAVE@ENIGMA MINGW64 ~/Documents/Visual Studio 2013/Projects/WizardWrx_Libs/ConsoleAppAids2 (master)
+$ git push -u origin master
+Counting objects: 266, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (263/263), done.
+Writing objects: 100% (266/266), 16.94 MiB | 290.00 KiB/s, done.
+Total 266 (delta 113), reused 0 (delta 0)
+To https://github.com/txwizard/ConsoleAppAids2.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+
+DAVE@ENIGMA MINGW64 ~/Documents/Visual Studio 2013/Projects/WizardWrx_Libs/ConsoleAppAids2 (master)
+$
